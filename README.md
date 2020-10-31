@@ -24,7 +24,7 @@
 
 > **Blog:** https://liuzhihang.com/
 >
-> **GitHub:** https://github.com/liuzhihangs
+> **GitHub:** https://github.com/liuzhihang
 >
 > **LeetCode:** https://leetcode-cn.com/u/liuzhihang/
 >
