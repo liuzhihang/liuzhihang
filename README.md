@@ -14,9 +14,9 @@
 
 **介绍两个小的 IDEA 插件**
 
-> **Toolkit:** https://github.com/liuzhihangs/toolkit
+> **Toolkit:** https://github.com/liuzhihang/toolkit
 >
-> **copy-as-json:** https://github.com/liuzhihangs/copy-as-json
+> **copy-as-json:** https://github.com/liuzhihang/copy-as-json
 
 ### 💬 End
 
