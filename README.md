@@ -12,7 +12,7 @@
 
 ### :pushpin: Project
 
-**介绍两个小的 IDEA 插件**
+**推荐个人写的 IDEA 插件**
 
 > **Doc View** https://github.com/liuzhihang/doc-view
 >
