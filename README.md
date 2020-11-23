@@ -14,6 +14,8 @@
 
 **介绍两个小的 IDEA 插件**
 
+> **Doc View** https://github.com/liuzhihang/doc-view
+>
 > **Toolkit:** https://github.com/liuzhihang/toolkit
 >
 > **copy-as-json:** https://github.com/liuzhihang/copy-as-json
