@@ -3,6 +3,10 @@ on:
   schedule:
     # Runs every day at 3pm UTC (11pm SG)
     - cron: '0 16 * * *'
+  push:
+    branches:
+      - master
+
 
 jobs:
   pull_blog_rss:
