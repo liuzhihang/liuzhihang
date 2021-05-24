@@ -2,9 +2,7 @@ name: Blog post workflow
 on:
   schedule:
     # Runs every day at 3pm UTC (11pm SG)
-    - cron: '32 12 * * *'
-  push:
-    - master
+    - cron: '0 16 * * *'
 
 jobs:
   pull_blog_rss:
