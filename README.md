@@ -17,6 +17,11 @@
 
 ### :bookmark: Blog
 <!-- BLOGPOSTS:START -->
+- [Toolkit 大更新：UI 更美观，用起来更方便！](https://liuzhihang.com/2021/04/17/idea-plugin-toolkit-0417.html)
+- [工作中的设计模式 ——  建造者模式](https://liuzhihang.com/2021/04/15/design-patterns-builder.html)
+- [工作中的设计模式 —— 策略模式](https://liuzhihang.com/2021/04/07/design-patterns-strategy.html)
+- [【工具册】- IDEA 文档插件 DocView 版本更新：支持编辑文档注释](https://liuzhihang.com/2021/04/02/doc-view-editor.html)
+- [工作中的设计模式 —— 原型模式](https://liuzhihang.com/2021/03/10/design-patterns-prototype.html)
 <!-- BLOGPOSTS:END -->
 
 ### :pushpin: Project
