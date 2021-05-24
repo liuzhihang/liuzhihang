@@ -1,3 +1,4 @@
+
 > Java开发, 热爱互联网, 闲暇时间会看看视频, 教程, 看书. 写写学习笔记.
 >
 > 喜欢跑步 ~这家伙很懒, 已经很久没跑步了~
@@ -20,7 +21,7 @@
 >
 > **copy-as-json:** https://github.com/liuzhihang/copy-as-json
 
-### 💬 End
+### 💬 Other
 
 **欢迎通过以下方式了解我**
 
@@ -37,5 +38,11 @@
 > **公众号:** liuzhihangs
 
 <img src="https://liuzhihang.com/oss/pic/wechat.jpg"  width="20%" height="20%" />
+
+
+### 📦 Info
+
+
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=liuzhihang&hide=contribs,prs&show_icons=true)
 
 
