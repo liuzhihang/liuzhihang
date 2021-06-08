@@ -17,11 +17,11 @@
 
 ### :bookmark: Blog
 <!-- BLOGPOSTS:START -->
-- [Mac 常用软件推荐 —— Java 开发工程师](https://liuzhihang.com/2021/05/25/mac-common-software-java.html)
-- [Toolkit 大更新：UI 更美观，用起来更方便！](https://liuzhihang.com/2021/04/17/idea-plugin-toolkit-0417.html)
-- [工作中的设计模式 ——  建造者模式](https://liuzhihang.com/2021/04/15/design-patterns-builder.html)
-- [工作中的设计模式 —— 策略模式](https://liuzhihang.com/2021/04/07/design-patterns-strategy.html)
-- [【工具册】- IDEA 文档插件 DocView 版本更新：支持编辑文档注释](https://liuzhihang.com/2021/04/02/doc-view-editor.html)
+- [MySQL next-key lock 加锁范围总结](https://liuzhihang.com/2021/06/07/mysql-next-key-4.html)
+- [Toolkit Json 转实体也可以支持 lombok 了！](https://liuzhihang.com/2021/06/07/ides-plugin-toolkit-lombok.html)
+- [MySQL普通索引的加锁](https://liuzhihang.com/2021/06/06/mysql-next-key-3.html)
+- [看来，MySQL next-key lock 的 bug 并没有被修复！](https://liuzhihang.com/2021/06/06/mysql-next-key-2.html)
+- [使用 Docker 安装并连接 MySQL](https://liuzhihang.com/2021/06/06/docker-mysql.html)
 <!-- BLOGPOSTS:END -->
 
 ### :pushpin: Project
