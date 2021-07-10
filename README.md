@@ -17,11 +17,11 @@
 
 ### :bookmark: Blog
 <!-- BLOGPOSTS:START -->
-- [MySQL next-key lock 加锁范围总结](https://liuzhihang.com/2021/06/07/mysql-next-key-4.html)
-- [Toolkit Json 转实体也可以支持 lombok 了！](https://liuzhihang.com/2021/06/07/ides-plugin-toolkit-lombok.html)
-- [MySQL普通索引的加锁](https://liuzhihang.com/2021/06/06/mysql-next-key-3.html)
-- [看来，MySQL next-key lock 的 bug 并没有被修复！](https://liuzhihang.com/2021/06/06/mysql-next-key-2.html)
-- [使用 Docker 安装并连接 MySQL](https://liuzhihang.com/2021/06/06/docker-mysql.html)
+- [Redisson 分布式锁源码 11：Semaphore 和 CountDownLatch](https://liuzhihang.com/2021/07/08/redisson-11.html)
+- [Redisson 分布式锁源码 10：读写锁](https://liuzhihang.com/2021/07/07/redisson-10.html)
+- [Redisson 分布式锁源码 09：RedLock 红锁的故事](https://liuzhihang.com/2021/07/06/redisson-9.html)
+- [Redisson 分布式锁源码 08：MultiLock 加锁与锁释放](https://liuzhihang.com/2021/07/05/redisson-8.html)
+- [Redisson 分布式锁源码 07：公平锁释放](https://liuzhihang.com/2021/07/04/redisson-7.html)
 <!-- BLOGPOSTS:END -->
 
 ### :pushpin: Project
