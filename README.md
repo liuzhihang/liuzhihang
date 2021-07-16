@@ -17,11 +17,11 @@
 
 ### :bookmark: Blog
 <!-- BLOGPOSTS:START -->
-- [Redisson 分布式锁源码 11：Semaphore 和 CountDownLatch](https://liuzhihang.com/2021/07/08/redisson-11.html)
-- [Redisson 分布式锁源码 10：读写锁](https://liuzhihang.com/2021/07/07/redisson-10.html)
-- [Redisson 分布式锁源码 09：RedLock 红锁的故事](https://liuzhihang.com/2021/07/06/redisson-9.html)
-- [Redisson 分布式锁源码 08：MultiLock 加锁与锁释放](https://liuzhihang.com/2021/07/05/redisson-8.html)
-- [Redisson 分布式锁源码 07：公平锁释放](https://liuzhihang.com/2021/07/04/redisson-7.html)
+- [ZooKeeper 分布式锁 Curator 源码 05：分布式读写锁和联锁](https://liuzhihang.com/2021/07/16/curator-5.html)
+- [ZooKeeper 分布式锁 Curator 源码 04：分布式信号量和互斥锁](https://liuzhihang.com/2021/07/15/curator-4.html)
+- [ZooKeeper 分布式锁 Curator 源码 03：可重入锁并发加锁](https://liuzhihang.com/2021/07/14/curator-3.html)
+- [ZooKeeper 分布式锁 Curator 源码 02：可重入锁重复加锁和锁释放](https://liuzhihang.com/2021/07/12/curator-2.html)
+- [ZooKeeper 分布式锁 Curator 源码 01：可重入锁](https://liuzhihang.com/2021/07/10/curator-1.html)
 <!-- BLOGPOSTS:END -->
 
 ### :pushpin: Project
