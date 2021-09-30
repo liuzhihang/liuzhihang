@@ -17,11 +17,11 @@
 
 ### :bookmark: Blog
 <!-- BLOGPOSTS:START -->
-- [使用 SpringBoot 转换器将前端参数转换为枚举](https://liuzhihang.com/2021/09/04/the_converter_converts_front_end_parameters_to_enumerations.html)
-- [MyBatis-Plus 中 Mapper 重载踩坑指南](https://liuzhihang.com/2021/08/22/guide_to_mapper_overloading_crater_in_mybatis_plus.html)
-- [并发场景加锁优化小技巧](https://liuzhihang.com/2021/07/25/tips_for_locking_and_optimizing_concurrent_scenes.html)
+- [MySQL datetime 时间字段的四舍五入](https://liuzhihang.com/2021/09/30/rounding_of_the_time_field.html)
+- [使用 SpringBoot 转换器将前端参数转换为枚举](https://liuzhihang.com/2021/09/03/the_converter_converts_front_end_parameters_to_enumerations.html)
+- [MyBatis-Plus 中 Mapper 重载踩坑指南](https://liuzhihang.com/2021/08/21/guide_to_mapper_overloading_crater_in_mybatis_plus.html)
+- [并发场景加锁优化小技巧](https://liuzhihang.com/2021/07/24/tips_for_locking_and_optimizing_concurrent_scenes.html)
 - [ZooKeeper 分布式锁 Curator 源码 05：分布式读写锁和联锁](https://liuzhihang.com/2021/07/16/curator-5.html)
-- [ZooKeeper 分布式锁 Curator 源码 04：分布式信号量和互斥锁](https://liuzhihang.com/2021/07/15/curator-4.html)
 <!-- BLOGPOSTS:END -->
 
 ### :pushpin: Project
