@@ -39,8 +39,10 @@
 **欢迎通过以下方式了解我**
 
 > **Blog:** https://liuzhihang.com/
->
+> 
 > **GitHub:** https://github.com/liuzhihang
+> 
+> **语雀:** https://www.yuque.com/liuzhihangs
 >
 > **LeetCode:** https://leetcode-cn.com/u/liuzhihang/
 >
