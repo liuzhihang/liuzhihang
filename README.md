@@ -53,9 +53,3 @@
 > **公众号:** [『 程序员小航 』](https://liuzhihang.com/oss/pic/wechat.jpg)
 
 
-### 📦 Info
-
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=liuzhihang&hide=contribs,prs&show_icons=true)
-
-
