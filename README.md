@@ -1,8 +1,7 @@
 <!-- 动态打字效果 -->
 <h1 align="center">
   <a href="https://liuzhihang.com/">
-    <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">
-  </a>
+    <img src="https://readme-typing-svg.herokuapp.com?color=%23d73a49&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">  </a>
 </h1>
 
 <!-- 敲代码的图片 -->
