@@ -1,19 +1,23 @@
 <!-- 动态打字效果 -->
-<h1 align="center">
+<h1 align="left">
   <a href="https://liuzhihang.com/">
-    <img src="https://readme-typing-svg.herokuapp.com?color=%23d73a49&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">  </a>
+    <img src="https://readme-typing-svg.herokuapp.com?color=%23000000&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">
+  </a
 </h1>
 
-<!-- 敲代码的图片 -->
-<div align="center" ><img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif" style="border-radius: 100px; width: 200px; height: 200px;" /></div>
+<!-- 图片 -->
+<div align="left" >
+  <img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif" style="border-radius: 100px; width: 320px; height: 320px;" />
+</div>
 <br>
 
 <!-- 个人资料徽标 -->
-<div align="center">
+<div align="left" >
   <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/website-个人博客-blue"></a>&emsp;
   <a href="https://blog.csdn.net/qq_36535538"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
   <a href="https://www.zhihu.com/people/liuzhihang"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
-
+  <a href="https://komarev.com/ghpvc/?username=liuzhihang"><img src="https://komarev.com/ghpvc/?username=liuzhihang"></a>&emsp;
+</div>
 
 ## Hello, I'm Liu Zhihang. 🤪
 
