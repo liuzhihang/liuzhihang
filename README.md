@@ -6,7 +6,7 @@
 </h1>
 
 <!-- 敲代码的图片 -->
-<div align="center" ><img order-radius="100px" src="https://oss.liuzhihang.com/article/乖巧上班-m25PWv.gif"/></div>
+<div align="center" ><img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif"/></div>
 <br>
 
 <!-- 个人资料徽标 -->
@@ -14,9 +14,6 @@
   <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/website-个人博客-blue"></a>&emsp;
   <a href="https://blog.csdn.net/qq_36535538"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
   <a href="https://www.zhihu.com/people/liuzhihang"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
-<!-- 访客数统计徽标 -->
-  <img src="https://visitor-badge.glitch.me/badge?page_id=liuzhihang" /></div>
-
 
 
 ## Hello, I'm Liu Zhihang. 🤪
