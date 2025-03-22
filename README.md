@@ -17,8 +17,7 @@
 <!-- 访客数统计徽标 -->
   <img src="https://visitor-badge.glitch.me/badge?page_id=liuzhihang" /></div>
 
-<!-- 贪吃蛇代码贡献图 -->
-<div align="center"><img src="https://cdn1.tianli0.top/gh/liuzhihang/liuzhihang/assets/github-contribution-grid-snake.svg" /></div>
+
 
 ## Hello, I'm Liu Zhihang. 🤪
 
