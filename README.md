@@ -1,67 +1,39 @@
-<!-- 动态打字效果 -->
-<h1 align="left">
-  <a href="https://liuzhihang.com/">
-    <img src="https://readme-typing-svg.herokuapp.com?color=%23000000&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">
-  </a
-</h1>
+# Hi, I’m Zhihang.
 
-<!-- 图片 -->
-<div align="left" >
-  <img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif" style="border-radius: 100px; width: 320px; height: 320px;" />
-</div>
-<br>
+<img align="right" width="128" src="assets/profile/terminal-mascot.svg" alt="Blue pixel mascot peeking out of a terminal">
 
-<!-- 个人资料徽标 -->
-<div align="left" >
-  <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/website-个人博客-blue"></a>&emsp;
-  <a href="https://blog.csdn.net/qq_36535538"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
-  <a href="https://www.zhihu.com/people/liuzhihang"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
-  <a href="https://komarev.com/ghpvc/?username=liuzhihang"><img src="https://komarev.com/ghpvc/?username=liuzhihang"></a>&emsp;
-</div>
+I build developer tools for Java and write about AI coding and spec-driven development.
 
-## Hello, I'm Liu Zhihang. 🤪
+[Personal Blog](https://liuzhihang.com/) &nbsp;·&nbsp; [X](https://x.com/liuzhihangs)
 
-### :eyes: About
+## Building
 
-> Java开发, 热爱互联网, 闲暇时间会看看视频, 教程, 看书. 写写学习笔记.
->
-> 喜欢跑步 ~这家伙很懒, 已经很久没跑步了~
->
-> 偶尔打打王者 ~(混分大王)~
->
-> 更多的时间是比较宅!
+**[Doc View](https://github.com/liuzhihang/doc-view)**<br>
+Generate API docs from Java source in IntelliJ IDEA without starting the service.<br>
+[JetBrains Marketplace](https://plugins.jetbrains.com/plugin/15305-doc-view) · [v1.7.2 release notes](https://github.com/liuzhihang/doc-view/releases/tag/v1.7.2)
 
-### :zap: Label:
+**[Dots](https://github.com/liuzhihang/dots)**<br>
+Browse, customize, and export character avatars for ChatGPT.<br>
+[Explore the gallery](https://dots.liuzhihang.chatgpt.site/)
 
-`java`  `后端`  `支付`  `开发`  `程序猿`  `coder`
+## Writing
 
+- [SDD 研发框架：我更推荐 OpenSpec](https://liuzhihang.com/posts/sdd-framework-why-openspec/)
+- [AI 研发：我为什么推荐大家使用 SDD](https://liuzhihang.com/posts/ai-rd-sdd/)
 
-### :pushpin: Project
+[Browse all posts](https://liuzhihang.com/articles/)
 
-**推荐个人写的 IDEA 插件**
+## Contribution Arcade
 
-> **Doc View** https://github.com/liuzhihang/doc-view
->
-> **Toolkit:** https://github.com/liuzhihang/toolkit
->
-> **copy-as-json:** https://github.com/liuzhihang/copy-as-json
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/arcade-dark.svg">
+  <img src="assets/profile/arcade-light.svg" alt="A yellow pixel character and two ghosts on Zhihang’s public GitHub contribution grid." width="100%">
+</picture>
 
-### :speech_balloon: Other
+<details>
+  <summary>More projects and links</summary>
 
-**欢迎通过以下方式了解我**
+  - JetBrains plugins: [Toolkit](https://github.com/liuzhihang/toolkit) · [Copy as JSON](https://github.com/liuzhihang/copy-as-json)
+  - Elsewhere: [WeChat](https://liuzhihang.com/oss/pic/wechat.jpg) · [Yuque](https://www.yuque.com/liuzhihangs) · [CSDN](https://blog.csdn.net/qq_36535538) · [Zhihu](https://www.zhihu.com/people/liuzhihang)
 
-> **Blog:** https://liuzhihang.com/
-> 
-> **GitHub:** https://github.com/liuzhihang
-> 
-> **语雀:** https://www.yuque.com/liuzhihangs
->
-> **LeetCode:** https://leetcode-cn.com/u/liuzhihang/
->
-> **CSDN:** https://blog.csdn.net/qq_36535538
->
-> **知乎:** https://www.zhihu.com/people/liuzhihang
->
-> **公众号:** [『 程序员小航 』](https://liuzhihang.com/oss/pic/wechat.jpg)
-
-
+</details>
