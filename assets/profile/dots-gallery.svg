@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Dots character gallery illustration</title>
+  <desc id="desc">Four original pixel character designs in an illustrated gallery, not a screenshot.</desc>
+  <defs><g id="orb"><path d="M23 0h34v5h10v8h7v11h6v30h-5v12h-8v8H54v6H25v-6H13v-8H5V54H0V24h6V13h7V5h10z"/><path d="M15 21h7V13h13" fill="none" stroke="#fff" stroke-width="4" opacity=".7"/></g>
+  <g id="eyes" fill="#17213b"><rect x="24" y="33" width="9" height="21" rx="4.5"/><rect x="47" y="33" width="9" height="21" rx="4.5"/></g></defs>
+  <rect x="1" y="1" width="598" height="298" rx="16" fill="#0d1625" stroke="#35465e" stroke-width="2"/>
+  <path d="M1 42H599" fill="none" stroke="#35465e" stroke-width="2"/>
+  <g fill="#68829e"><circle cx="22" cy="22" r="4"/><circle cx="36" cy="22" r="4"/><circle cx="50" cy="22" r="4"/></g>
+  <text x="67" y="28" fill="#bacde4" font-family="ui-monospace, Menlo, monospace" font-size="16">Dots / Characters</text>
+  <g fill="#18243a" stroke="#35465e"><rect x="20" y="69" width="266" height="93" rx="10"/><rect x="314" y="69" width="266" height="93" rx="10"/><rect x="20" y="180" width="266" height="93" rx="10"/><rect x="314" y="180" width="266" height="93" rx="10"/></g>
+  <g transform="translate(40 85) scale(.75)" fill="#4898ff"><use href="#orb"/><use href="#eyes"/><path d="M5 40v-9a35 35 0 0 1 70 0v9" fill="none" stroke="#b6ccf0" stroke-width="5"/><rect x="-3" y="36" width="13" height="23" rx="5" fill="#2a3e70"/><rect x="70" y="36" width="13" height="23" rx="5" fill="#2a3e70"/></g>
+  <g transform="translate(335 85) scale(.75)" fill="#7ae4c5"><use href="#orb"/><use href="#eyes"/><path d="M40 9Q15 1 22-11Q35-10 40 2Q43-13 58-13Q67 1 40 9Z" fill="#b0f2c1"/></g>
+  <g transform="translate(40 195) scale(.75)" fill="#b58cfa"><use href="#orb"/><use href="#eyes"/><path d="M13 29h54l-7-11-6-10H26l-6 9z" fill="#efd593"/></g>
+  <g transform="translate(335 195) scale(.75)" fill="#ffcf70"><use href="#orb"/><use href="#eyes"/><path d="M21 33h17v14H21zm21 0h17v14H42z" fill="#18243a"/><path d="M15 33h50" fill="none" stroke="#18243a" stroke-width="4"/></g>
+  <g fill="#e8effb" font-family="system-ui,sans-serif" font-size="18" font-weight="600"><text x="120" y="121">Headphones</text><text x="415" y="121">Sprout</text><text x="120" y="232">Bucket Hat</text><text x="415" y="232">Shades</text></g>
+</svg>

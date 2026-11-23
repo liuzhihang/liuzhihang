@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="300" viewBox="0 0 600 300" role="img" aria-labelledby="title desc">
+  <title id="title">Doc View: Java source to API documentation</title>
+  <desc id="desc">Diagram of the official example: a Spring controller becomes documentation for GET /users/detail, with request id and response id and name.</desc>
+  <rect x="1" y="1" width="598" height="298" rx="16" fill="#0d1625" stroke="#35465e" stroke-width="2"/>
+  <path d="M1 42H599M297 42V299" fill="none" stroke="#35465e" stroke-width="2"/>
+  <g fill="#68829e"><circle cx="22" cy="22" r="4"/><circle cx="36" cy="22" r="4"/><circle cx="50" cy="22" r="4"/></g>
+  <g font-family="ui-monospace, Menlo, monospace" font-size="18" fill="#f0f6fc">
+    <text x="67" y="28" fill="#bacde4" font-size="16">UserController.java</text>
+    <text x="22" y="85" fill="#82c8ff">@RestController</text>
+    <text x="22" y="117" fill="#82c8ff">@RequestMapping</text>
+    <text x="22" y="142">("/users")</text>
+    <text x="22" y="185" fill="#82c8ff">@GetMapping</text>
+    <text x="22" y="210">("/detail")</text>
+    <text x="22" y="256" fill="#b7c6d8">getUser(String id)</text>
+    <text x="320" y="81" fill="#bacde4" font-size="16">API DOCUMENTATION</text>
+    <rect x="320" y="99" width="57" height="32" rx="6" fill="#123e78"/>
+    <text x="331" y="121" fill="#d7ecff" font-weight="700">GET</text>
+    <text x="391" y="121" font-size="17">/users/detail</text>
+    <text x="320" y="173" fill="#bacde4" font-size="16">REQUEST</text>
+    <text x="320" y="200">id</text>
+    <text x="320" y="239" fill="#bacde4" font-size="16">RESPONSE</text>
+    <text x="320" y="266">id · name</text>
+  </g>
+</svg>

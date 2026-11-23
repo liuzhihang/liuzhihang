@@ -1,67 +1,52 @@
-<!-- 动态打字效果 -->
-<h1 align="left">
-  <a href="https://liuzhihang.com/">
-    <img src="https://readme-typing-svg.herokuapp.com?color=%23000000&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">
-  </a
-</h1>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/hero-dark.svg">
+  <img src="assets/profile/hero-light.svg" alt="Hi, I’m Zhihang. Java developer and open-source builder." width="100%">
+</picture>
 
-<!-- 图片 -->
-<div align="left" >
-  <img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif" style="border-radius: 100px; width: 320px; height: 320px;" />
-</div>
-<br>
+I build developer tools for Java and write about AI coding and spec-driven development.
 
-<!-- 个人资料徽标 -->
-<div align="left" >
-  <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/website-个人博客-blue"></a>&emsp;
-  <a href="https://blog.csdn.net/qq_36535538"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
-  <a href="https://www.zhihu.com/people/liuzhihang"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
-  <a href="https://komarev.com/ghpvc/?username=liuzhihang"><img src="https://komarev.com/ghpvc/?username=liuzhihang"></a>&emsp;
-</div>
+**[Personal Blog ↗](https://liuzhihang.com/)** · **[X ↗](https://x.com/liuzhihangs)**
 
-## Hello, I'm Liu Zhihang. 🤪
+## Featured Projects
 
-### :eyes: About
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/liuzhihang/doc-view"><img src="assets/profile/doc-view.svg" alt="Doc View illustration: example Java source and generated API documentation"></a>
+      <br><strong><a href="https://github.com/liuzhihang/doc-view">Doc View</a></strong>
+      <br>Generate API docs from Java source in IntelliJ IDEA without starting the service.
+      <br><a href="https://plugins.jetbrains.com/plugin/15305-doc-view">JetBrains Marketplace ↗</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/liuzhihang/dots"><img src="assets/profile/dots-gallery.svg" alt="Dots gallery illustration with four original avatar designs"></a>
+      <br><strong><a href="https://github.com/liuzhihang/dots">Dots</a></strong>
+      <br>Browse, customize, and export character avatars for ChatGPT.
+      <br><a href="https://dots.liuzhihang.chatgpt.site/">Live gallery ↗</a>
+    </td>
+  </tr>
+</table>
 
-> Java开发, 热爱互联网, 闲暇时间会看看视频, 教程, 看书. 写写学习笔记.
->
-> 喜欢跑步 ~这家伙很懒, 已经很久没跑步了~
->
-> 偶尔打打王者 ~(混分大王)~
->
-> 更多的时间是比较宅!
+## Recent Updates
 
-### :zap: Label:
+- `RELEASE` [Doc View v1.7.2](https://github.com/liuzhihang/doc-view/releases/tag/v1.7.2)
+- `WRITING` [SDD 研发框架：我更推荐 OpenSpec](https://liuzhihang.com/posts/sdd-framework-why-openspec/)
+- `WRITING` [AI 研发：我为什么推荐大家使用 SDD](https://liuzhihang.com/posts/ai-rd-sdd/)
 
-`java`  `后端`  `支付`  `开发`  `程序猿`  `coder`
+[View all posts ↗](https://liuzhihang.com/articles/)
 
+## Contribution Arcade
 
-### :pushpin: Project
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/arcade-dark.svg">
+  <img src="assets/profile/arcade-light.svg" alt="A yellow pixel character and two ghosts on Zhihang’s public GitHub contribution grid." width="100%">
+</picture>
 
-**推荐个人写的 IDEA 插件**
+[View my GitHub contributions ↗](https://github.com/liuzhihang)
 
-> **Doc View** https://github.com/liuzhihang/doc-view
->
-> **Toolkit:** https://github.com/liuzhihang/toolkit
->
-> **copy-as-json:** https://github.com/liuzhihang/copy-as-json
+<details>
+  <summary>More projects and links</summary>
 
-### :speech_balloon: Other
+  - JetBrains plugins: [Toolkit](https://github.com/liuzhihang/toolkit) · [Copy as JSON](https://github.com/liuzhihang/copy-as-json)
+  - Elsewhere: [WeChat](https://liuzhihang.com/oss/pic/wechat.jpg) · [Yuque](https://www.yuque.com/liuzhihangs) · [CSDN](https://blog.csdn.net/qq_36535538) · [Zhihu](https://www.zhihu.com/people/liuzhihang)
 
-**欢迎通过以下方式了解我**
-
-> **Blog:** https://liuzhihang.com/
-> 
-> **GitHub:** https://github.com/liuzhihang
-> 
-> **语雀:** https://www.yuque.com/liuzhihangs
->
-> **LeetCode:** https://leetcode-cn.com/u/liuzhihang/
->
-> **CSDN:** https://blog.csdn.net/qq_36535538
->
-> **知乎:** https://www.zhihu.com/people/liuzhihang
->
-> **公众号:** [『 程序员小航 』](https://liuzhihang.com/oss/pic/wechat.jpg)
-
-
+</details>
