@@ -62,14 +62,14 @@
         fill: #34D399;
         animation: blink 1.05s steps(1, end) infinite;
       }
-      .r1 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.15s; }
-      .r2 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.32s; }
-      .r3 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.49s; }
-      .r4 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.66s; }
-      .r5 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.83s; }
-      .r6 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.00s; }
-      .r7 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.17s; }
-      .r8 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.38s; }
+      .r1 { opacity: 1; animation: fadeIn 0.45s ease forwards 0.15s; }
+      .r2 { opacity: 1; animation: fadeIn 0.45s ease forwards 0.32s; }
+      .r3 { opacity: 1; animation: fadeIn 0.45s ease forwards 0.49s; }
+      .r4 { opacity: 1; animation: fadeIn 0.45s ease forwards 0.66s; }
+      .r5 { opacity: 1; animation: fadeIn 0.45s ease forwards 0.83s; }
+      .r6 { opacity: 1; animation: fadeIn 0.45s ease forwards 1.00s; }
+      .r7 { opacity: 1; animation: fadeIn 0.45s ease forwards 1.17s; }
+      .r8 { opacity: 1; animation: fadeIn 0.45s ease forwards 1.38s; }
 
       @keyframes pulseDot {
         0%, 100% { opacity: 1; }
@@ -91,6 +91,7 @@
         from { opacity: 0; transform: translateY(4px); }
         to { opacity: 1; transform: translateY(0); }
       }
+    @media (prefers-reduced-motion: reduce) { * {animation: none !important;} }
     </style>
   </defs>
 
