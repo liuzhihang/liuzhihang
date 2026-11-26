@@ -1,0 +1,8 @@
+{
+  "name": "profile-refresh",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "pacman-contribution-graph": "5.5.2"
+  }
+}

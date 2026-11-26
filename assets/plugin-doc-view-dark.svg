@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="227" viewBox="0 0 460 227" role="img" aria-labelledby="title desc">
+<title id="title">Doc View · IntelliJ IDEA Plugin</title><desc id="desc">Java source becomes API documentation. Supports Spring, Feign and Dubbo. Preview and export Markdown or publish to YApi, ShowDoc and Yuque.</desc>
+<!-- Plugin logo from liuzhihang/doc-view, MIT; see THIRD_PARTY_NOTICES.md. -->
+<style>
+text {font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#E6EDF3}
+.meta {fill:#8B949E;font-size:12px}
+.code {font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:13px}
+.accent {fill:#58A6FF}
+.signal {stroke-dasharray:4 5;animation:flow 2.6s linear infinite}
+@keyframes flow {to {stroke-dashoffset:-18}}
+@media (prefers-reduced-motion: reduce) {.signal {animation:none}}
+</style>
+<rect x=".5" y=".5" width="459" height="226" rx="12" fill="#161B22" stroke="#30363D"/>
+<g transform="translate(18 15) scale(.9)"><rect x="2" y="2" width="36" height="36" rx="5" fill="#3574F0"/>
+  <g transform="translate(8 8) scale(1.5)" fill="#FFFFFF">
+    <path d="M1 4h2.2l2.1 5.2L7.5 4h2.3v8H8V6.5L6.1 11.5H4.9L3 6.5V12H1V4Z"/>
+    <path d="M12.45 4.5h1.2v4.1l1.25-1.25.85.85-2.7 2.7-2.7-2.7.85-.85 1.25 1.25V4.5Z"/>
+  </g>
+</g>
+<text x="64" y="40" font-size="22" font-weight="700">Doc View</text>
+<rect x="305" y="22" width="135" height="24" rx="12" fill="#0D1117" stroke="#30363D"/>
+<text x="372.5" y="38" text-anchor="middle" class="meta">IntelliJ IDEA Plugin</text>
+<path d="M20 61H440" stroke="#30363D"/>
+<rect x="20" y="77" width="180" height="92" rx="12" fill="#0D1117" stroke="#30363D"/><rect x="260" y="77" width="180" height="92" rx="12" fill="#0D1117" stroke="#30363D"/>
+<text x="34" y="98" font-size="13" font-weight="650">Java 源码</text>
+<text x="34" y="123" class="code accent">@GetMapping</text>
+<text x="34" y="147" class="code" style="fill:#8B949E">// 获取订单详情</text>
+<path d="M212 122h35m-8-6 8 6-8 6" fill="none" stroke="#58A6FF" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+<path class="signal" d="M212 122h26" fill="none" stroke="#0D1117" stroke-width="1.8"/>
+<text x="274" y="98" font-size="13" font-weight="650">接口文档预览</text>
+<rect x="274" y="109" width="35" height="20" rx="5" fill="#1D3045"/>
+<text x="291.5" y="123" text-anchor="middle" class="code accent" font-weight="700">GET</text>
+<text x="316" y="123" class="code">/orders/&#123;id&#125;</text>
+<path d="M274 143h92m-92 9h62" fill="none" stroke="#30363D" stroke-width="2" stroke-linecap="round"/>
+<text x="20" y="195" class="meta">Spring · Feign · Dubbo</text>
+<text x="440" y="195" text-anchor="end" class="meta">Markdown · YApi · ShowDoc · 语雀</text>
+</svg>
