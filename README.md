@@ -56,16 +56,20 @@ Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的�
 ## 🧰 常用工具
 
 **后端与数据**  
+<a href="https://github.com/tandpfun/skill-icons">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=light">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql&amp;theme=light">
   <img src="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=dark" width="156" alt="Java、Spring、MySQL">
 </picture>
+</a>
 
 **开发与交付**  
+<a href="https://github.com/tandpfun/skill-icons">
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=light">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cgit%2Cgithub%2Cdocker&amp;theme=light">
   <img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="208" alt="IntelliJ IDEA、Git、GitHub、Docker">
 </picture>
+</a>
 
 **AI 研发**  
 [![Codex](https://img.shields.io/badge/Codex-725480?style=flat)](https://openai.com/codex/) [![Antigravity](https://img.shields.io/badge/Antigravity-725480?style=flat)](https://antigravity.google/) [![OpenSpec](https://img.shields.io/badge/OpenSpec-725480?style=flat)](https://github.com/Fission-AI/OpenSpec)
@@ -74,7 +78,7 @@ Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的�
 
 <p align="center">
   <a href="https://github.com/liuzhihang"><picture><source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=liuzhihang&amp;background=F9F3FA&amp;border=DCCDE7&amp;stroke=DCCDE7&amp;ring=95649F&amp;fire=AD6639&amp;currStreakNum=372743&amp;currStreakLabel=95649F&amp;sideNums=372743&amp;sideLabels=604F6D&amp;dates=604F6D&amp;border_radius=11"><img width="48%" src="https://streak-stats.demolab.com/?user=liuzhihang&amp;background=1C192E&amp;border=493B5D&amp;stroke=493B5D&amp;ring=F0B576&amp;fire=D9ACEA&amp;currStreakNum=FFF1E1&amp;currStreakLabel=F0B576&amp;sideNums=FFF1E1&amp;sideLabels=D0C0D9&amp;dates=D0C0D9&amp;border_radius=11" alt="GitHub 总贡献、当前连续贡献和最长连续贡献"></picture></a>
-  <a href="https://leetcode.cn/u/liuzhihang/"><picture><source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;colors=F9F3FA,DCCDE7,604F6D,372743,95649F,8064A7,AD6639,8D6CA0&amp;border=0&amp;radius=11"><img width="48%" src="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;colors=1C192E,493B5D,D0C0D9,FFF1E1,F0B576,9879BC,D9ACEA,9F88B8&amp;border=0&amp;radius=11" alt="LeetCode 中国站解题统计"></picture></a>
+  <a href="https://leetcode.cn/u/liuzhihang/"><picture><source media="(prefers-color-scheme: light)" srcset="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;colors=F9F3FA%2CDCCDE7%2C604F6D%2C372743%2C95649F%2C8064A7%2CAD6639%2C8D6CA0&amp;border=0&amp;radius=11"><img width="48%" src="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;colors=1C192E,493B5D,D0C0D9,FFF1E1,F0B576,9879BC,D9ACEA,9F88B8&amp;border=0&amp;radius=11" alt="LeetCode 中国站解题统计"></picture></a>
 </p>
 
 <details>
