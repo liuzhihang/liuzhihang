@@ -6,13 +6,13 @@
 			
 		</info>
 	</metadata><rect width="100%" height="100%" fill="#161B22"/><defs>
-                <symbol id="ghost-blinky-up" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#893921" d="M1 3h4v2h2v4h2V6h2v3h2V5h2V3h4v7h-2v2h1v4h-3v2h-2v-2H7v2H5v-2H2v-4h1v-2H1z"/><path fill="#F99466" d="M2 4h2v2h2v4H4V9H2zm16 0v5h-2v1h-2V6h2V4zM5 10h10v2h2v3H3v-3h2z"/><path fill="#321A15" d="M7 10h2v3H7zm4 0h2v3h-2z"/></g></symbol>
+                <symbol id="ghost-blinky-up" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#D97757" stroke="#943F2D" stroke-width=".55" d="M3 3h14v6h2v3h-2v3H3v-3H1V9h2z"/><path fill="#AC5039" d="M4 15h2v3H4zm3 0h2v3H7zm4 0h2v3h-2zm3 0h2v3h-2z"/><path fill="#55281F" d="M5.5 6h1.5v3.5H5.5zm7.5 0h1.5v3.5H13z"/></g></symbol>
                 
-                <symbol id="ghost-blinky-down" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#893921" d="M1 3h4v2h2v4h2V6h2v3h2V5h2V3h4v7h-2v2h1v4h-3v2h-2v-2H7v2H5v-2H2v-4h1v-2H1z"/><path fill="#F99466" d="M2 4h2v2h2v4H4V9H2zm16 0v5h-2v1h-2V6h2V4zM5 10h10v2h2v3H3v-3h2z"/><path fill="#321A15" d="M7 10h2v3H7zm4 0h2v3h-2z"/></g></symbol>
+                <symbol id="ghost-blinky-down" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#D97757" stroke="#943F2D" stroke-width=".55" d="M3 3h14v6h2v3h-2v3H3v-3H1V9h2z"/><path fill="#AC5039" d="M4 15h2v3H4zm3 0h2v3H7zm4 0h2v3h-2zm3 0h2v3h-2z"/><path fill="#55281F" d="M5.5 6h1.5v3.5H5.5zm7.5 0h1.5v3.5H13z"/></g></symbol>
                 
-                <symbol id="ghost-blinky-left" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#893921" d="M1 3h4v2h2v4h2V6h2v3h2V5h2V3h4v7h-2v2h1v4h-3v2h-2v-2H7v2H5v-2H2v-4h1v-2H1z"/><path fill="#F99466" d="M2 4h2v2h2v4H4V9H2zm16 0v5h-2v1h-2V6h2V4zM5 10h10v2h2v3H3v-3h2z"/><path fill="#321A15" d="M7 10h2v3H7zm4 0h2v3h-2z"/></g></symbol>
+                <symbol id="ghost-blinky-left" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#D97757" stroke="#943F2D" stroke-width=".55" d="M3 3h14v6h2v3h-2v3H3v-3H1V9h2z"/><path fill="#AC5039" d="M4 15h2v3H4zm3 0h2v3H7zm4 0h2v3h-2zm3 0h2v3h-2z"/><path fill="#55281F" d="M5.5 6h1.5v3.5H5.5zm7.5 0h1.5v3.5H13z"/></g></symbol>
                 
-                <symbol id="ghost-blinky-right" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#893921" d="M1 3h4v2h2v4h2V6h2v3h2V5h2V3h4v7h-2v2h1v4h-3v2h-2v-2H7v2H5v-2H2v-4h1v-2H1z"/><path fill="#F99466" d="M2 4h2v2h2v4H4V9H2zm16 0v5h-2v1h-2V6h2V4zM5 10h10v2h2v3H3v-3h2z"/><path fill="#321A15" d="M7 10h2v3H7zm4 0h2v3h-2z"/></g></symbol>
+                <symbol id="ghost-blinky-right" viewBox="0 0 20 20"><g data-pet="claude-crab"><path fill="#D97757" stroke="#943F2D" stroke-width=".55" d="M3 3h14v6h2v3h-2v3H3v-3H1V9h2z"/><path fill="#AC5039" d="M4 15h2v3H4zm3 0h2v3H7zm4 0h2v3h-2zm3 0h2v3h-2z"/><path fill="#55281F" d="M5.5 6h1.5v3.5H5.5zm7.5 0h1.5v3.5H13z"/></g></symbol>
                 
                 <symbol id="ghost-inky-up" viewBox="0 0 20 20"><g data-pet="deepseek-whale"><path fill="#143570" d="M9 2h2v3H9zM7 3h2v2H7zm4 0h2v2h-2zM6 6h7v1h3v3h3v4h-2v2h-3v2H5v-2H2v-3H0V9h3v2h3z"/><path fill="#4A9CFF" d="M7 7h5v1h3v3h3v3h-2v2H5v-2H3v-2H1v-2h1v2h5zm2-4h2v2H9z"/><path fill="#BAE5FF" d="M6 14h10v2h-2v1H6z"/><path fill="#102A56" d="M13 10h2v2h-2z"/></g></symbol>
                 
