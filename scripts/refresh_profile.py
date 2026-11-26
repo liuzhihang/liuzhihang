@@ -63,9 +63,9 @@ class Calendar(HTMLParser):
 def skyline(d, theme):
     days = sorted(d)
     bg, fg, muted, grid, c = (
-        ('#F9F3FA', '#33253E', '#63536F', '#E7DBED', ['#E7DBED','#D8BEE6','#BB93D2','#9568B1','#734C89'])
+        ('#F6F8FA', '#24292F', '#4D5869', '#E6EBF0', ['#E6EBF0','#C8E2F5','#9CCCEB','#61AFEF','#257AA9'])
         if theme == 'light' else
-        ('#211A31', '#FFF1E1', '#BEADD0', '#372C49', ['#372C49','#654974','#8F619F','#B581C9','#F0B576'])
+        ('#282C34', '#ABB2BF', '#ABB2BF', '#343A46', ['#343A46','#355C78','#4784AD','#61AFEF','#98C379'])
     )
     def xy(i, dx=0, dy=0, h=0):
         x,y = i//7+dx, i%7+dy
@@ -112,6 +112,18 @@ def refresh(feed, calendar, output):
 def arcade_fallbacks(output):
     for theme in ('light','dark'):
         source = (output/'assets'/f'profile-arcade-{theme}.svg').read_text()
+        # Reapply the profile palette after each upstream refresh, including the
+        # color strings inside animated contribution tiles.
+        palettes = {
+            'light': {'#ffffff':'#F6F8FA', '#ebedf0':'#E6EBF0', '#57606a':'#4D5869',
+                      '#9be9a8':'#C8E2F5', '#40c463':'#9CCCEB', '#30a14e':'#61AFEF', '#216e39':'#257AA9'},
+            'dark': {'#0d1117':'#282C34', '#161b22':'#343A46', '#8b949e':'#ABB2BF',
+                     '#0e4429':'#355C78', '#006d32':'#4784AD', '#26a641':'#61AFEF', '#39d353':'#98C379'},
+        }
+        palette = palettes[theme]
+        source = re.sub(r'#[0-9a-fA-F]{6}\b', lambda color: palette.get(color[0].lower(), color[0]), source)
+        ET.fromstring(source)
+        (output/'assets'/f'profile-arcade-{theme}.svg').write_text(source)
         if not re.search(r'<animate(?:Transform|Motion)?\b', source):
             raise ValueError('Pac-Man output contains no animations')
         static = re.sub(r'<(?:animate(?:Transform|Motion)?|set)\b[^>]*(?:/>|>.*?</(?:animate(?:Transform|Motion)?|set)>)', '', source, flags=re.S)
