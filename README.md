@@ -20,7 +20,7 @@ Java 后端开发者、IntelliJ IDEA 插件作者、开源贡献者。
 - 🧩 [Doc-View](https://github.com/liuzhihang/doc-view) 开发者，在 IntelliJ IDEA 里快速生成接口文档。
 - 🧪 多 Agent 协作探索者，实践从需求到交付的研发自动化。
 - ✍️ 踩坑记录分享员，在博客、公众号和 [X](https://x.com/liuzhihangs) 分享实战笔记。
-- 🏃 理论跑步爱好者，实践派插件作者。
+- 🏃 理论跑步爱好者，偶尔爬山选手，随缘撸铁党。
 - 🎮 金铲铲猪脑过载选手，LOLM 手残党，王者混分大王。
 
 ## 🧩 开源作品
