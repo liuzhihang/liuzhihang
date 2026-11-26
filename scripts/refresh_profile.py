@@ -112,6 +112,69 @@ def refresh(feed, calendar, output):
         (output/'assets'/f'profile-skyline-{theme}.svg').write_text(svg)
 
 
+# A 20-unit board tile is small: prioritize contrasting silhouettes over detail.
+PETS = {
+    # A hand-drawn terminal-style silhouette: blocky body, short arms and four feet.
+    'blinky': ('claude-crab',
+        '<path fill="#D97757" stroke="#943F2D" stroke-width=".55" d="M3 3h14v6h2v3h-2v3H3v-3H1V9h2z"/>'
+        '<path fill="#AC5039" d="M4 15h2v3H4zm3 0h2v3H7zm4 0h2v3h-2zm3 0h2v3h-2z"/>'
+        '<path fill="#55281F" d="M5.5 6h1.5v3.5H5.5zm7.5 0h1.5v3.5H13z"/>'),
+    'inky': ('deepseek-whale',
+        '<path fill="#143570" d="M9 2h2v3H9zM7 3h2v2H7zm4 0h2v2h-2zM6 6h7v1h3v3h3v4h-2v2h-3v2H5v-2H2v-3H0V9h3v2h3z"/>'
+        '<path fill="#4A9CFF" d="M7 7h5v1h3v3h3v3h-2v2H5v-2H3v-2H1v-2h1v2h5zm2-4h2v2H9z"/>'
+        '<path fill="#BAE5FF" d="M6 14h10v2h-2v1H6z"/><path fill="#102A56" d="M13 10h2v2h-2z"/>'),
+    'pinky': ('mino-dot',
+        '<path fill="#263A56" d="M5 2h10v2h2v2h2v8h-2v2h-2v2H5v-2H3v-2H1V6h2V4h2z"/>'
+        '<path fill="#F1F5FF" d="M5 3h10v2h2v2h1v6h-2v2h-2v2H6v-2H4v-2H2V7h1V5h2z"/>'
+        '<path fill="#9BB7E3" d="M4 13h12v2h-2v2H6v-2H4z"/>'
+        '<rect x="6" y="7" width="2.5" height="5" rx="1.25" fill="#172539"/><rect x="11.5" y="7" width="2.5" height="5" rx="1.25" fill="#172539"/>'),
+    'clyde': ('agy-ship',
+        '<path fill="#28304E" d="M8 1h4v2h2v5h2v3h2v5h-5v3H7v-3H2v-5h2V8h2V3h2z"/>'
+        '<path fill="#8DB6FF" d="M8 2h4v2h1v10H7V4h1z"/>'
+        '<path fill="#FF7773" d="M6 8H5v3H3v4h4V8z"/><path fill="#55D5A0" d="M14 8h1v3h2v4h-4V8z"/>'
+        '<path fill="#2B47AA" d="M9 5h2v4H9z"/><path fill="#FFCF60" d="M8 15h4v3H8z"/>'),
+}
+
+
+def dress_arcade_pets(source):
+    """Replace only upstream sprite art; keep the maze, states and animation keyframes."""
+    for ghost, (pet, art) in PETS.items():
+        pattern = rf'(<symbol id="ghost-{ghost}-(up|down|left|right)"[^>]*>).*?</symbol>'
+
+        def redraw(match):
+            # Reuse the same readable upright profile except for the whale's left turn.
+            sprite = art
+            if pet == 'deepseek-whale' and match[2] == 'left':
+                sprite = f'<g transform="translate(20 0) scale(-1 1)">{art}</g>'
+            return f'{match[1]}<g data-pet="{pet}">{sprite}</g></symbol>'
+
+        source, count = re.subn(pattern, redraw, source, flags=re.S)
+        if count != 4:
+            raise ValueError(f'Expected four arcade directions for {ghost}; got {count}')
+    return source
+
+
+def freeze_arcade_opening(source):
+    """Freeze actors at their first animation position instead of stacking at the origin."""
+    root = ET.fromstring(source)
+    ns = '{http://www.w3.org/2000/svg}'
+    for actor_id in ('pacman', 'ghost0', 'ghost1', 'ghost2', 'ghost3'):
+        actor = root.find(f".//*[@id='{actor_id}']")
+        move = actor.find(f"{ns}animateTransform[@type='translate']") if actor is not None else None
+        position = move.attrib['values'].split(';', 1)[0] if move is not None else ''
+        if not re.fullmatch(r'-?\d+,\s*-?\d+', position):
+            raise ValueError(f'Missing arcade starting position for {actor_id}')
+        source, count = re.subn(
+            rf'(<(?:g|path) id="{actor_id}")(?: transform="[^"]*")?',
+            rf'\1 transform="translate({position})"', source, count=1)
+        if count != 1:
+            raise ValueError(f'Missing arcade actor {actor_id}')
+    static = re.sub(r'<(?:animate(?:Transform|Motion)?|set)\b[^>]*(?:/>|>.*?</(?:animate(?:Transform|Motion)?|set)>)',
+                    '', source, flags=re.S)
+    ET.fromstring(static)
+    return static
+
+
 def arcade_fallbacks(output):
     for theme in ('light','dark'):
         source = (output/'assets'/f'profile-arcade-{theme}.svg').read_text()
@@ -129,12 +192,9 @@ def arcade_fallbacks(output):
         source = re.sub(r'<desc>Generated with pacman-contribution-graph on [^<]+</desc>',
                         '<desc>Generated with pacman-contribution-graph</desc>', source)
         source = re.sub(r'<generatedOn>[^<]+</generatedOn>', '', source)
-        ET.fromstring(source)
+        source = dress_arcade_pets(source)
+        static = freeze_arcade_opening(source)
         (output/'assets'/f'profile-arcade-{theme}.svg').write_text(source)
-        if not re.search(r'<animate(?:Transform|Motion)?\b', source):
-            raise ValueError('Pac-Man output contains no animations')
-        static = re.sub(r'<(?:animate(?:Transform|Motion)?|set)\b[^>]*(?:/>|>.*?</(?:animate(?:Transform|Motion)?|set)>)', '', source, flags=re.S)
-        ET.fromstring(static)
         (output/'assets'/f'profile-arcade-still-{theme}.svg').write_text(static)
 
 
