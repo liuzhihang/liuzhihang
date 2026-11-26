@@ -23,24 +23,33 @@ Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的�
 
 ## 🧩 开源作品
 
-### [Doc View](https://github.com/liuzhihang/doc-view)
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://plugins.jetbrains.com/plugin/15305-doc-view"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/plugin-doc-view-light.svg"><img src="./assets/plugin-doc-view-dark.svg" alt="Doc View：Java 源码生成接口文档" width="460"></picture></a>
+      <p>支持 Spring、Feign、Dubbo，可预览接口文档并导出 Markdown。</p>
+      <p><a href="https://plugins.jetbrains.com/plugin/15305-doc-view"><img alt="Downloads" src="https://img.shields.io/jetbrains/plugin/d/15305-doc-view?style=flat&amp;labelColor=24292F&amp;color=1F6FEB&amp;label=Downloads"></a> <a href="https://plugins.jetbrains.com/plugin/15305-doc-view"><img alt="Version" src="https://img.shields.io/jetbrains/plugin/v/15305-doc-view?style=flat&amp;labelColor=24292F&amp;color=373E47&amp;label=Version"></a> <a href="https://github.com/liuzhihang/doc-view"><img alt="Stars" src="https://img.shields.io/github/stars/liuzhihang/doc-view?style=flat&amp;labelColor=24292F&amp;color=373E47&amp;label=Stars"></a></p>
+      <p><a href="https://plugins.jetbrains.com/plugin/15305-doc-view">安装插件</a> · <a href="https://github.com/liuzhihang/doc-view">查看源码</a> · <a href="https://github.com/liuzhihang/doc-view/issues/new?template=feature_request.md">提需求</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://plugins.jetbrains.com/plugin/12384-toolkit"><picture><source media="(prefers-color-scheme: light)" srcset="./assets/plugin-toolkit-light.svg"><img src="./assets/plugin-toolkit-dark.svg" alt="Toolkit：JavaBean 与 JSON 转换、MyBatis 跳转、编解码与格式化" width="460"></picture></a>
+      <p>JavaBean 与 JSON 互转、MyBatis 双向跳转，支持编解码与格式化。</p>
+      <p><a href="https://plugins.jetbrains.com/plugin/12384-toolkit"><img alt="Downloads" src="https://img.shields.io/jetbrains/plugin/d/12384-toolkit?style=flat&amp;labelColor=24292F&amp;color=1F6FEB&amp;label=Downloads"></a> <a href="https://plugins.jetbrains.com/plugin/12384-toolkit"><img alt="Version" src="https://img.shields.io/jetbrains/plugin/v/12384-toolkit?style=flat&amp;labelColor=24292F&amp;color=373E47&amp;label=Version"></a> <a href="https://github.com/liuzhihang/toolkit"><img alt="Stars" src="https://img.shields.io/github/stars/liuzhihang/toolkit?style=flat&amp;labelColor=24292F&amp;color=373E47&amp;label=Stars"></a></p>
+      <p><a href="https://plugins.jetbrains.com/plugin/12384-toolkit">安装插件</a> · <a href="https://github.com/liuzhihang/toolkit">查看源码</a> · <a href="https://github.com/liuzhihang/toolkit/issues/new?title=%5B%E5%8A%9F%E8%83%BD%E5%BB%BA%E8%AE%AE%5D%20&amp;body=%23%23%23%20%E5%B8%8C%E6%9C%9B%E5%A2%9E%E5%8A%A0%E4%BB%80%E4%B9%88%E5%8A%9F%E8%83%BD%0A%0A%0A%23%23%23%20%E4%BD%BF%E7%94%A8%E5%9C%BA%E6%99%AF%0A%0A%0A%23%23%23%20%E5%BB%BA%E8%AE%AE%E6%88%96%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%0A%0A">提需求</a></p>
+    </td>
+  </tr>
+</table>
 
-支持 Spring、Feign、Dubbo，可预览接口文档并导出 Markdown。  
-[安装插件](https://plugins.jetbrains.com/plugin/15305-doc-view) · [查看源码](https://github.com/liuzhihang/doc-view)
+<details>
+<summary>🎬 展开 Doc View 实际操作演示</summary>
 
-[![JetBrains 下载量](https://img.shields.io/jetbrains/plugin/d/15305-doc-view?style=flat&labelColor=24292F&color=1F6FEB&label=Downloads)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![JetBrains 版本](https://img.shields.io/jetbrains/plugin/v/15305-doc-view?style=flat&labelColor=24292F&color=373E47&label=Version)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![GitHub Stars](https://img.shields.io/github/stars/liuzhihang/doc-view?style=flat&labelColor=24292F&color=373E47&label=Stars)](https://github.com/liuzhihang/doc-view)
+<img src="./assets/doc-view-demo.webp" width="720" alt="Doc View 历史版本实拍：在 IntelliJ IDEA 中从 Java 源码生成接口文档。">
 
-### [Toolkit](https://github.com/liuzhihang/toolkit)
+[查看完整历史演示](https://github.com/liuzhihang/doc-view#功能演示) · 截图取自历史版本，当前界面可能不同。
 
-IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。
+</details>
 
-[![JetBrains 下载量](https://img.shields.io/jetbrains/plugin/d/12384-toolkit?style=flat&labelColor=24292F&color=1F6FEB&label=Downloads)](https://plugins.jetbrains.com/plugin/12384-toolkit) · [![JetBrains 版本](https://img.shields.io/jetbrains/plugin/v/12384-toolkit?style=flat&labelColor=24292F&color=373E47&label=Version)](https://plugins.jetbrains.com/plugin/12384-toolkit) · [![GitHub Stars](https://img.shields.io/github/stars/liuzhihang/toolkit?style=flat&labelColor=24292F&color=373E47&label=Stars)](https://github.com/liuzhihang/toolkit)
-
-### [karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)
-
-基于 [Multica 的 andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 的 fork，为不同编码 Agent 整理 `AGENTS.md` 和 Skill。
-
-[![Fork 来源](https://img.shields.io/badge/Source-Fork-373E47?style=flat&labelColor=24292F)](https://github.com/multica-ai/andrej-karpathy-skills) · [![GitHub Stars](https://img.shields.io/github/stars/liuzhihang/karpathy-agents-md?style=flat&labelColor=24292F&color=373E47&label=Stars)](https://github.com/liuzhihang/karpathy-agents-md)
+[karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)：基于 [Multica 的 andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills) 的 fork，提供 `AGENTS.md` 和 Skill。
 
 ## ✍️ 博客
 
@@ -69,7 +78,8 @@ IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。
   <tr><th>分类</th><th>工具</th></tr>
   <tr><td>后端与数据</td><td><a href="https://github.com/tandpfun/skill-icons"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql&amp;theme=light"><img src="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=dark" width="111" alt="Java、Spring、MySQL"></picture></a></td></tr>
   <tr><td>开发与交付</td><td><a href="https://github.com/tandpfun/skill-icons"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cgit%2Cgithub%2Cdocker&amp;theme=light"><img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="149" alt="IntelliJ IDEA、Git、GitHub、Docker"></picture></a></td></tr>
-  <tr><td>AI 研发</td><td><a href="https://openai.com/codex/"><img src="https://img.shields.io/badge/AI-Codex-373E47?style=flat&amp;labelColor=24292F" alt="Codex"></a> <a href="https://antigravity.google/"><img src="https://img.shields.io/badge/IDE-Antigravity-373E47?style=flat&amp;labelColor=24292F" alt="Antigravity"></a> <a href="https://github.com/Fission-AI/OpenSpec"><img src="https://img.shields.io/badge/SDD-OpenSpec-373E47?style=flat&amp;labelColor=24292F" alt="OpenSpec"></a></td></tr>
+  <tr><td>AI 模型</td><td><a href="https://chatgpt.com/"><img src="./assets/ai-gpt.svg" width="36" height="36" alt="GPT" title="GPT"></a> <a href="https://claude.ai/"><img src="./assets/ai-claude.svg" width="36" height="36" alt="Claude" title="Claude"></a> <a href="https://www.deepseek.com/"><img src="./assets/ai-deepseek.svg" width="36" height="36" alt="DeepSeek" title="DeepSeek"></a> <a href="https://z.ai/"><img src="./assets/ai-glm.svg" width="36" height="36" alt="GLM" title="GLM"></a></td></tr>
+  <tr><td>AI 研发工具</td><td><a href="https://openai.com/codex/"><img src="./assets/ai-codex.svg" width="36" height="36" alt="Codex" title="Codex"></a> <a href="https://antigravity.google/"><img src="./assets/ai-antigravity.svg" width="36" height="36" alt="Antigravity (AGY)" title="Antigravity (AGY)"></a> <a href="https://github.com/Fission-AI/OpenSpec"><img src="./assets/ai-openspec.svg" width="36" height="36" alt="OpenSpec" title="OpenSpec"></a> <a href="https://github.com/multica-ai/multica"><img src="./assets/ai-multica.svg" width="36" height="36" alt="Multica" title="Multica"></a></td></tr>
 </table>
 
 ## 📊 开发者数据室
@@ -102,10 +112,12 @@ IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。
 <sub>地图来自我的 <a href="https://github.com/liuzhihang">GitHub 公开贡献记录</a>，由 <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Contribution Graph</a> 生成；<a href="./.github/workflows/refresh-profile.yml">默认分支自动刷新</a>，预览分支展示最近一次生成的快照。</sub>
 
 <details>
-<summary>💬 微信公众号「程序员小航」二维码</summary>
+<summary>💬 点击展开微信公众号「程序员小航」二维码</summary>
 
 <img src="https://liuzhihang.com/oss/pic/wechat.jpg" width="190" alt="微信公众号「程序员小航」二维码">
 
 </details>
 
-<p align="right"><img src="https://komarev.com/ghpvc/?username=liuzhihang&amp;label=Profile%20Views&amp;color=282C34&amp;style=flat" alt="GitHub 主页浏览计数"></p>
+更多平台 · [![语雀](https://img.shields.io/badge/%E8%AF%AD%E9%9B%80-373E47?style=flat&labelColor=24292F&color=373E47&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACI0lEQVR42q3VTatNURgH8N%2Fe%2B95zXQNJSD4AA2bcjBiZ%2BQBmMjMxkBJJBmQiAwaGyksp8Qmk7kDKTHkpRJS6s6ub63Zfzss2eZZWu30Ox%2FHUarfXetb%2F%2F6zntVhYXDZCpmL1UGIj9jsYZGe9UQBNKbAJfXSHXE5EvdDvoMIa6j8RTMfFbvyXLTp1BlQH4XSsjVEEM1hv7A2GvL4Iq5NOtw0jJ%2Bi0gFfYHa%2BoA3SA71hpuK%2BM8%2FXA2sgJZluUB9iJ19jcIFjCR7zAWzzHt8yohLk6lQWr2%2BKGq9iagSfZFetI%2FP%2FEU9wMst9uLRYWl6vImNy3NbbgE3bEedkSm7oRixo3cCF5ohyRqrnVyb%2F5quJuFbr9%2BJ7DnTBgpmxYLwvoFWyP88JoSYRFBPckzmKlWFhc7mS5m9x1CC%2FDiuIvCJo1MgjMw2WzMEIuZsU0DrhMfxaXi6wXpdTcgzdRleOC56%2BApTKKIg%2FkvqyZTSIF1soGUI1jDSv%2BRVIKv8vTrIf9OBEK1X94wXx6QT9a9N3wvQn9X%2BIHHqU62IYnODCkaseRVDcP8Dll0V68DzdVE1if6mYtkuVrGYAfcDobgfUEgS1wCl9SL%2BoHyW1cymLQGwM8zewK58M9Ffpl5rcK13AmWvdUdjYYYnE%2FG1wr0YOux3%2B%2FOW8TyS0cxONoI9WQoCeLV3Efc7gXe718HmgZk8myORzH0UiEmdhfj6R4hod41XIX%2FAKmGKgBuRK78wAAAABJRU5ErkJggg%3D%3D)](https://www.yuque.com/liuzhihangs) [![知乎](https://img.shields.io/badge/%E7%9F%A5%E4%B9%8E-373E47?style=flat&labelColor=24292F&color=373E47&logo=zhihu&logoColor=E6EDF3)](https://www.zhihu.com/people/liuzhihang) [![CSDN](https://img.shields.io/badge/CSDN-373E47?style=flat&labelColor=24292F&color=373E47&logo=csdn&logoColor=E6EDF3)](https://blog.csdn.net/qq_36535538)
+
+<p align="right"><img src="https://komarev.com/ghpvc/?username=liuzhihang&amp;label=Profile%20Views&amp;color=373E47&amp;style=flat" alt="GitHub 主页浏览计数"></p>
