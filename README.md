@@ -1,67 +1,40 @@
-<!-- 动态打字效果 -->
-<h1 align="left">
-  <a href="https://liuzhihang.com/">
-    <img src="https://readme-typing-svg.herokuapp.com?color=%23000000&lines=学，而知不足；教，然后知困！;console.log(%22Hello%EF%BC%8Cworld%22)">
-  </a
-</h1>
+# 刘志航 · Liu Zhihang
 
-<!-- 图片 -->
-<div align="left" >
-  <img order-radius="100px" src="https://github.com/liuzhihang/liuzhihang/blob/master/1.gif" style="border-radius: 100px; width: 320px; height: 320px;" />
-</div>
-<br>
+Java 后端开发者、IntelliJ IDEA 插件作者。写 AI 研发实践，做自己工作中用得上的工具。
 
-<!-- 个人资料徽标 -->
-<div align="left" >
-  <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/website-个人博客-blue"></a>&emsp;
-  <a href="https://blog.csdn.net/qq_36535538"><img src="https://img.shields.io/badge/CSDN-%E5%8D%9A%E5%AE%A2-c32136"></a>&emsp;
-  <a href="https://www.zhihu.com/people/liuzhihang"><img src="https://img.shields.io/badge/zhihu-%E7%9F%A5%E4%B9%8E-blue"></a>&emsp;
-  <a href="https://komarev.com/ghpvc/?username=liuzhihang"><img src="https://komarev.com/ghpvc/?username=liuzhihang"></a>&emsp;
-</div>
+[博客](https://liuzhihang.com/) · [X](https://x.com/liuzhihangs) · [公众号 · 程序员小航](https://liuzhihang.com/oss/pic/wechat.jpg)
 
-## Hello, I'm Liu Zhihang. 🤪
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/vibe-terminal-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/vibe-terminal-light.svg">
+  <img src="./assets/vibe-terminal-dark.svg" width="100%" alt="我的 AI 研发流程：定需求、用 Agent 实现、验证后交付。">
+</picture>
 
-### :eyes: About
+## 开源作品
 
-> Java开发, 热爱互联网, 闲暇时间会看看视频, 教程, 看书. 写写学习笔记.
->
-> 喜欢跑步 ~这家伙很懒, 已经很久没跑步了~
->
-> 偶尔打打王者 ~(混分大王)~
->
-> 更多的时间是比较宅!
+**[Doc View](https://github.com/liuzhihang/doc-view)**  
+在 IntelliJ IDEA 里从 Java 源码生成接口文档。 · [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/15305-doc-view)
 
-### :zap: Label:
+- **[Toolkit](https://github.com/liuzhihang/toolkit)**：IDEA 提效工具箱，包含 JSON 转换、MyBatis 跳转等常用功能。
+- **[karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)**：给编码 Agent 的简明协作准则，提供 `AGENTS.md` 和 Skill。
 
-`java`  `后端`  `支付`  `开发`  `程序猿`  `coder`
+## 最新文章
 
+<!-- BLOG-POST-LIST:START -->
+- [五张图看懂 Loop Engineering](https://liuzhihang.com/posts/loop-engineering-visual-guide/)
+- [什么是 Loop Engineering？AI Coding 正在从 Prompt 走向 Loop](https://liuzhihang.com/posts/loop-engineering/)
+- [出了事故，就该禁止 AI 写代码吗？](https://liuzhihang.com/posts/ai-coding-incident-checks/)
+<!-- BLOG-POST-LIST:END -->
 
-### :pushpin: Project
+## 最近在做
 
-**推荐个人写的 IDEA 插件**
+- 维护 Doc View，继续打磨在 IDEA 里查接口、写文档的体验。
+- 用 OpenSpec 和编码 Agent 跑需求、开发、自测、验收，再把有用的方法写下来。
 
-> **Doc View** https://github.com/liuzhihang/doc-view
->
-> **Toolkit:** https://github.com/liuzhihang/toolkit
->
-> **copy-as-json:** https://github.com/liuzhihang/copy-as-json
+> 学，而知不足；教，然后知困！
 
-### :speech_balloon: Other
+## 贡献街机
 
-**欢迎通过以下方式了解我**
+![吃豆人贡献图布局示意](./assets/profile-pacman-preview.svg)
 
-> **Blog:** https://liuzhihang.com/
-> 
-> **GitHub:** https://github.com/liuzhihang
-> 
-> **语雀:** https://www.yuque.com/liuzhihangs
->
-> **LeetCode:** https://leetcode-cn.com/u/liuzhihang/
->
-> **CSDN:** https://blog.csdn.net/qq_36535538
->
-> **知乎:** https://www.zhihu.com/people/liuzhihang
->
-> **公众号:** [『 程序员小航 』](https://liuzhihang.com/oss/pic/wechat.jpg)
-
-
+*预览占位，不代表真实贡献。正式版由 GitHub Actions 生成。*

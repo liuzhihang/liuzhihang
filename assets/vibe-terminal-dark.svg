@@ -1,0 +1,208 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 330" width="880" height="330" role="img" aria-label="Liu Zhihang Vibe Coding Terminal (Dark)">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120" />
+      <stop offset="55%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.7" />
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#34D399" stop-opacity="0.7" />
+    </linearGradient>
+    <linearGradient id="activeNodeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="100%" stop-color="#172554" />
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <radialGradient id="ambientGlow" cx="18%" cy="55%" r="35%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+    <style>
+      .mono {
+        font-family: 'SF Mono', 'JetBrains Mono', 'Fira Code', Menlo, Monaco, Consolas, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', monospace;
+      }
+      .sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+      }
+      .title { font-size: 12.5px; fill: #94A3B8; font-weight: 500; }
+      .section-tag { font-size: 10.5px; fill: #64748B; font-weight: 700; letter-spacing: 1.4px; }
+      .node-title { font-size: 12px; fill: #F8FAFC; font-weight: 700; }
+      .node-sub { font-size: 10.5px; fill: #94A3B8; }
+      .node-sub-hi { font-size: 10.5px; fill: #7DD3FC; font-weight: 500; }
+      .node-num { font-size: 10.5px; fill: #E2E8F0; font-weight: 700; }
+      .cmd { font-size: 13.5px; fill: #F8FAFC; font-weight: 600; }
+      .key { font-size: 13px; fill: #38BDF8; font-weight: 600; }
+      .arrow { font-size: 13px; fill: #475569; }
+      .val { font-size: 13px; fill: #E2E8F0; }
+      .val-accent { font-size: 13px; fill: #A5F3FC; font-weight: 600; }
+      .val-gold { font-size: 13px; fill: #FDE68A; font-weight: 500; }
+      .muted { font-size: 10.5px; fill: #64748B; }
+      .prompt-dir { font-size: 12.5px; fill: #38BDF8; font-weight: 600; }
+      .prompt-git { font-size: 12.5px; fill: #818CF8; font-weight: 600; }
+      .prompt-msg { font-size: 12.5px; fill: #94A3B8; }
+
+      .pulse-dot {
+        animation: pulseDot 2s ease-in-out infinite;
+        transform-origin: 702px 21px;
+      }
+      .flow-line {
+        stroke-dasharray: 4 4;
+        animation: flowDown 1.1s linear infinite;
+      }
+      .active-ring {
+        animation: glowPulse 3.2s ease-in-out infinite;
+      }
+      .cursor {
+        fill: #34D399;
+        animation: blink 1.05s steps(1, end) infinite;
+      }
+      .r1 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.15s; }
+      .r2 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.32s; }
+      .r3 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.49s; }
+      .r4 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.66s; }
+      .r5 { opacity: 0; animation: fadeIn 0.45s ease forwards 0.83s; }
+      .r6 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.00s; }
+      .r7 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.17s; }
+      .r8 { opacity: 0; animation: fadeIn 0.45s ease forwards 1.38s; }
+
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      @keyframes flowDown {
+        from { stroke-dashoffset: 16; }
+        to { stroke-dashoffset: 0; }
+      }
+      @keyframes glowPulse {
+        0%, 100% { stroke-opacity: 0.95; }
+        50% { stroke-opacity: 0.38; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(4px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+  </defs>
+
+  <!-- Main Window Frame -->
+  <rect x="1.5" y="1.5" width="877" height="327" rx="16" fill="url(#bgGrad)" stroke="url(#borderGrad)" stroke-width="1.5" />
+  <rect x="2" y="42" width="876" height="286" rx="14" fill="url(#ambientGlow)" />
+
+  <!-- macOS Title Bar -->
+  <path d="M 17 2 H 863 A 15 15 0 0 1 878 17 V 42 H 2 V 17 A 15 15 0 0 1 17 2 Z" fill="#131C31" fill-opacity="0.9" />
+  <line x1="2" y1="42" x2="878" y2="42" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Traffic Light Dots -->
+  <circle cx="24" cy="21" r="6" fill="#FF5F56" />
+  <circle cx="44" cy="21" r="6" fill="#FFBD2E" />
+  <circle cx="64" cy="21" r="6" fill="#27C93F" />
+
+  <!-- Window Title -->
+  <text x="440" y="25.5" text-anchor="middle" class="mono title">liuzhihang@mac — codex · agy — zsh</text>
+
+  <!-- Live Status Pill -->
+  <rect x="688" y="10" width="172" height="22" rx="11" fill="#064E3B" fill-opacity="0.5" stroke="#10B981" stroke-opacity="0.55" stroke-width="1" />
+  <circle cx="702" cy="21" r="3.8" fill="#34D399" class="pulse-dot" />
+  <text x="713" y="24.5" class="mono" font-size="10.5" font-weight="600" fill="#6EE7B7" letter-spacing="0.6">VIBE CODING · LIVE</text>
+
+  <!-- Panel Divider -->
+  <line x1="278" y1="58" x2="278" y2="312" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- LEFT PANEL: SDD x Vibe Coding Loop -->
+  <text x="26" y="72" class="mono section-tag">AGENT LOOP · SDD</text>
+
+  <!-- Node 1: Spec & Intent -->
+  <rect x="24" y="84" width="232" height="52" rx="10" fill="#151F35" stroke="#334155" stroke-width="1" />
+  <circle cx="46" cy="110" r="12" fill="#312E81" stroke="#818CF8" stroke-width="1.2" />
+  <text x="46" y="114" text-anchor="middle" class="mono node-num">01</text>
+  <text x="68" y="106" class="mono node-title">SPEC &amp; INTENT</text>
+  <text x="68" y="123" class="sans node-sub">SDD · OpenSpec · Context</text>
+
+  <!-- Connector 1 -> 2 -->
+  <line x1="140" y1="136" x2="140" y2="156" stroke="url(#flowGrad)" stroke-width="2" class="flow-line" />
+  <polygon points="136,152 144,152 140,157" fill="#38BDF8" />
+
+  <!-- Node 2: Vibe Copilots (Highlighted Active) -->
+  <rect x="24" y="157" width="232" height="56" rx="10" fill="url(#activeNodeGrad)" stroke="#38BDF8" stroke-width="1.5" class="active-ring" />
+  <circle cx="46" cy="185" r="12" fill="#0C4A6E" stroke="#38BDF8" stroke-width="1.3" />
+  <text x="46" y="189" text-anchor="middle" class="mono node-num">02</text>
+  <text x="68" y="180" class="mono node-title">VIBE COPILOTS</text>
+  <text x="68" y="198" class="mono node-sub-hi">Codex · Antigravity (AGY)</text>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="140" y1="213" x2="140" y2="233" stroke="url(#flowGrad)" stroke-width="2" class="flow-line" />
+  <polygon points="136,229 144,229 140,234" fill="#34D399" />
+
+  <!-- Node 3: Verify & Ship -->
+  <rect x="24" y="234" width="232" height="52" rx="10" fill="#151F35" stroke="#334155" stroke-width="1" />
+  <circle cx="46" cy="260" r="12" fill="#064E3B" stroke="#34D399" stroke-width="1.2" />
+  <text x="46" y="264" text-anchor="middle" class="mono node-num">03</text>
+  <text x="68" y="256" class="mono node-title">VERIFY &amp; SHIP</text>
+  <text x="68" y="273" class="sans node-sub">4D Review · Tests · Merge</text>
+
+  <text x="26" y="308" class="mono muted">▸ human-in-the-loop · 100% owned</text>
+
+  <!-- RIGHT PANEL: Terminal Neofetch Output -->
+  <text x="300" y="73" class="mono cmd">
+    <tspan fill="#34D399">➜</tspan>
+    <tspan fill="#38BDF8"> ~ </tspan>
+    <tspan>vibe --whoami liuzhihang</tspan>
+  </text>
+  <line x1="300" y1="86" x2="856" y2="86" stroke="#1E293B" stroke-width="1" stroke-dasharray="3 3" />
+
+  <g class="r1">
+    <text x="300" y="112" class="mono key">identity</text>
+    <text x="382" y="112" class="mono arrow">▸</text>
+    <text x="400" y="112" class="mono val">Liu Zhihang · 程序员小航</text>
+  </g>
+  <g class="r2">
+    <text x="300" y="138" class="mono key">craft</text>
+    <text x="382" y="138" class="mono arrow">▸</text>
+    <text x="400" y="138" class="mono val">Java 后端 · 支付系统 · AI Engineering</text>
+  </g>
+  <g class="r3">
+    <text x="300" y="164" class="mono key">copilot</text>
+    <text x="382" y="164" class="mono arrow">▸</text>
+    <text x="400" y="164" class="mono val-accent">Vibe Coding w/ Codex &amp; Antigravity (AGY)</text>
+  </g>
+  <g class="r4">
+    <text x="300" y="190" class="mono key">method</text>
+    <text x="382" y="190" class="mono arrow">▸</text>
+    <text x="400" y="190" class="mono val">SDD (规范驱动开发) · OpenSpec · AGENTS.md</text>
+  </g>
+  <g class="r5">
+    <text x="300" y="216" class="mono key">plugins</text>
+    <text x="382" y="216" class="mono arrow">▸</text>
+    <text x="400" y="216" class="mono val">Doc View (207★) · Toolkit (IntelliJ IDEA)</text>
+  </g>
+  <g class="r6">
+    <text x="300" y="242" class="mono key">life</text>
+    <text x="382" y="242" class="mono arrow">▸</text>
+    <text x="400" y="242" class="mono val">看书笔记 · 理论跑步选手 · 王者混分大王</text>
+  </g>
+  <g class="r7">
+    <text x="300" y="268" class="mono key">motto</text>
+    <text x="382" y="268" class="mono arrow">▸</text>
+    <text x="400" y="268" class="mono val-gold">学，而知不足；教，然后知困！</text>
+  </g>
+
+  <g class="r8">
+    <text x="300" y="306" class="mono">
+      <tspan fill="#34D399" font-size="12.5" font-weight="700">➜</tspan>
+      <tspan class="prompt-dir"> ~/liuzhihang</tspan>
+      <tspan class="prompt-git"> git:(master)</tspan>
+      <tspan class="prompt-msg"> ready to ship something fun </tspan>
+      <tspan class="cursor" font-size="13">▋</tspan>
+    </text>
+  </g>
+</svg>
