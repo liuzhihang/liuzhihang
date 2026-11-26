@@ -1,18 +1,21 @@
-<img src="./assets/profile-hero.svg" width="100%" alt="刘志航 · Liu Zhihang，开发者工作台">
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-still.png">
+  <img src="./assets/workbench-loop.gif" width="100%" alt="刘志航的开发工作台：右侧双屏代码滚动，小机器人眨眼，左侧终端打字。">
+</picture>
 
-# 刘志航 · Liu Zhihang
+<p>
+  <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/博客-293049?style=for-the-badge&amp;logo=rss&amp;logoColor=FFC77E" alt="博客"></a>
+  <a href="https://x.com/liuzhihangs"><img src="https://img.shields.io/badge/X-293049?style=for-the-badge&amp;logo=x&amp;logoColor=BDDBF5" alt="X"></a>
+  <a href="https://liuzhihang.com/oss/pic/wechat.jpg"><img src="https://img.shields.io/badge/公众号-293049?style=for-the-badge&amp;logo=wechat&amp;logoColor=8FE0BD" alt="微信公众号：程序员小航"></a>
+</p>
+
+## 👋 关于我
 
 Java 后端开发者、IntelliJ IDEA 插件作者。写 AI 研发实践，做自己工作中用得上的工具。
 
-[博客](https://liuzhihang.com/) · [X](https://x.com/liuzhihangs) · [公众号 · 程序员小航](https://liuzhihang.com/oss/pic/wechat.jpg)
-
-<p><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=23&amp;pause=1800&amp;duration=3300&amp;color=4088DE&amp;width=680&amp;height=38&amp;vCenter=true&amp;lines=%E5%AD%A6%EF%BC%8C%E8%80%8C%E7%9F%A5%E4%B8%8D%E8%B6%B3%EF%BC%9B%E6%95%99%EF%BC%8C%E7%84%B6%E5%90%8E%E7%9F%A5%E5%9B%B0%EF%BC%81%3B%E7%90%86%E8%AE%BA%E8%B7%91%E6%AD%A5%E7%88%B1%E5%A5%BD%E8%80%85+%C2%B7+%E5%AE%9E%E8%B7%B5%E6%B4%BE%E6%8F%92%E4%BB%B6%E4%BD%9C%E8%80%85" width="600" alt="学，而知不足；教，然后知困！理论跑步爱好者。"></p>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/vibe-terminal-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/vibe-terminal-light.svg">
-  <img src="./assets/vibe-terminal-dark.svg" width="100%" alt="我的 AI 研发流程：定需求、用 Agent 实现、验证后交付。">
-</picture>
+- 🧩 在维护 **[Doc View](https://github.com/liuzhihang/doc-view)**，让查接口、写文档少一些重复操作。
+- 🧪 在用 **OpenSpec + 编码 Agent** 跑需求、开发、自测和验收。
+- 🏃 理论跑步爱好者，实践派插件作者。
 
 ## 🧩 开源作品
 
@@ -23,35 +26,54 @@ Java 后端开发者、IntelliJ IDEA 插件作者。写 AI 研发实践，做自
 - **[Toolkit](https://github.com/liuzhihang/toolkit)**：IDEA 提效工具箱，包含 JSON 转换、MyBatis 跳转等常用功能。 [![Toolkit 下载量](https://img.shields.io/jetbrains/plugin/d/12384-toolkit?style=flat-square)](https://plugins.jetbrains.com/plugin/12384-toolkit)
 - **[karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)**：给编码 Agent 的简明协作准则，提供 `AGENTS.md` 和 Skill。
 
-## ✍️ 最新文章
+## ✍️ 博客
+
+**精选**：[五张图看懂 Loop Engineering](https://liuzhihang.com/posts/loop-engineering-visual-guide/)
+
+**最新发布**
 
 <!-- BLOG-POST-LIST:START -->
-- [五张图看懂 Loop Engineering](https://liuzhihang.com/posts/loop-engineering-visual-guide/)
-- [什么是 Loop Engineering？AI Coding 正在从 Prompt 走向 Loop](https://liuzhihang.com/posts/loop-engineering/)
 - [出了事故，就该禁止 AI 写代码吗？](https://liuzhihang.com/posts/ai-coding-incident-checks/)
 - [SDD 研发框架：我更推荐 OpenSpec](https://liuzhihang.com/posts/sdd-framework-why-openspec/)
 - [GPT-6.2 发布：AGENTS.md 该留什么？](https://liuzhihang.com/posts/gpt-6-2-agents-md/)
+- [GPT-6.2 使用速查](https://liuzhihang.com/posts/gpt-6-2-codex-definition-of-done/)
+- [GPT-6.2 API 迁移：别只换模型名](https://liuzhihang.com/posts/gpt-6-2-api-migration/)
 <!-- BLOG-POST-LIST:END -->
-
-## 🛠️ 最近在做
-
-- 维护 Doc View，继续打磨在 IDEA 里查接口、写文档的体验。
-- 用 OpenSpec 和编码 Agent 跑需求、开发、自测、验收，再把有用的方法写下来。
-
-> 学，而知不足；教，然后知困！
 
 ## 🧰 常用工具
 
-<img src="https://skillicons.dev/icons?i=java,spring,idea,git,docker,mysql&amp;perline=6" width="290" alt="Java、Spring、IntelliJ IDEA、Git、Docker、MySQL">
+**后端与数据**  
+<img src="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=dark" width="156" alt="Java、Spring、MySQL">
 
-AI 研发：`Codex` · `Antigravity` · `OpenSpec`
+**开发与交付**  
+<img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="208" alt="IntelliJ IDEA、Git、GitHub、Docker">
 
-## 📊 数据与趣味彩蛋
+**AI 研发**  
+[![Codex](https://img.shields.io/badge/Codex-202537?style=flat-square)](https://openai.com/codex/) [![Antigravity](https://img.shields.io/badge/Antigravity-684AAD?style=flat-square)](https://antigravity.google/) [![OpenSpec](https://img.shields.io/badge/OpenSpec-315B82?style=flat-square)](https://github.com/Fission-AI/OpenSpec)
+
+## 📊 开发者数据室
 
 <p align="center">
   <a href="https://github.com/liuzhihang"><img width="48%" src="https://streak-stats.demolab.com/?user=liuzhihang&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub 总贡献、当前连续贡献和最长连续贡献"></a>
   <a href="https://leetcode.cn/u/liuzhihang/"><img width="48%" src="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;theme=nord&amp;border=0&amp;radius=10" alt="LeetCode 中国站解题统计"></a>
 </p>
+
+<details>
+<summary>🗓️ 展开公开贡献周报 · 星期分布</summary>
+<br>
+
+```text
+Mon  126  ████████████████  26.7%
+Tue   53  ███████░░░░░░░░░  11.2%
+Wed   57  ███████░░░░░░░░░  12.1%
+Thu   13  ██░░░░░░░░░░░░░░   2.8%
+Fri   49  ██████░░░░░░░░░░  10.4%
+Sat   48  ██████░░░░░░░░░░  10.2%
+Sun  126  ████████████████  26.7%
+```
+
+<sub>GitHub 公开贡献日历快照，2025-11-23 至 2026-11-26；包含贡献日历计入的各类活动，不等同于提交次数、编码时长或 AI 使用时长。</sub>
+</details>
 
 <details>
 <summary>🏙️ 展开开发者数据室 · 3D 贡献城市 / 提交时段</summary>
@@ -78,4 +100,4 @@ AI 研发：`Codex` · `Antigravity` · `OpenSpec`
   <img src="./assets/profile-arcade-dark.svg" width="100%" alt="像素吃豆人沿 GitHub 公开贡献日历移动">
 </picture>
 
-<sub>地图来自我的 <a href="https://github.com/liuzhihang">GitHub 公开贡献记录</a>，由 <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Contribution Graph</a> 生成；预览暂未启用定时刷新。</sub>
+<sub>地图来自我的 <a href="https://github.com/liuzhihang">GitHub 公开贡献记录</a>，由 <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Contribution Graph</a> 生成；预览使用快照，暂未启用定时刷新。</sub>
