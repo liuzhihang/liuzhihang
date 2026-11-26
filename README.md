@@ -1,12 +1,14 @@
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-still.png">
-  <img src="./assets/workbench-loop.gif" width="100%" alt="刘志航的开发工作台：右侧双屏代码滚动，小机器人眨眼，左侧终端打字。">
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-slate.png">
+  <img src="./assets/workbench-slate.gif" width="100%" alt="Liu Zhihang：Java 后端开发者和插件作者。像素工作台里的小机器人漂浮在显示器旁。">
 </picture>
 
 <p>
-  <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/博客-293049?style=for-the-badge&amp;logo=rss&amp;logoColor=FFC77E" alt="博客"></a>
-  <a href="https://x.com/liuzhihangs"><img src="https://img.shields.io/badge/X-293049?style=for-the-badge&amp;logo=x&amp;logoColor=BDDBF5" alt="X"></a>
-  <a href="https://liuzhihang.com/oss/pic/wechat.jpg"><img src="https://img.shields.io/badge/公众号-293049?style=for-the-badge&amp;logo=wechat&amp;logoColor=8FE0BD" alt="微信公众号：程序员小航"></a>
+  <a href="https://liuzhihang.com/"><img height="24" src="https://img.shields.io/badge/Website-个人博客-46799D?style=flat&amp;labelColor=26364E&amp;logo=rss&amp;logoColor=E4EDF6" alt="个人博客"></a>
+  &nbsp;
+  <a href="https://x.com/liuzhihangs"><img height="24" src="https://img.shields.io/badge/X-%40liuzhihangs-46799D?style=flat&amp;labelColor=26364E&amp;logo=x&amp;logoColor=E4EDF6" alt="X：@liuzhihangs"></a>
+  &nbsp;
+  <a href="https://liuzhihang.com/oss/pic/wechat.jpg"><img height="24" src="https://img.shields.io/badge/WeChat-公众号-46799D?style=flat&amp;labelColor=26364E&amp;logo=wechat&amp;logoColor=E4EDF6" alt="微信公众号：程序员小航"></a>
 </p>
 
 ## 👋 关于我
@@ -19,22 +21,27 @@ Java 后端开发者、IntelliJ IDEA 插件作者。写 AI 研发实践，做自
 
 ## 🧩 开源作品
 
-**[Doc View](https://github.com/liuzhihang/doc-view)**  
-在 IntelliJ IDEA 里从 Java 源码生成接口文档，支持 Markdown 等输出。  
-[![Doc View 下载量](https://img.shields.io/jetbrains/plugin/d/15305-doc-view?style=flat-square&color=2878e3)](https://plugins.jetbrains.com/plugin/15305-doc-view) [![Doc View 评分](https://img.shields.io/jetbrains/plugin/r/rating/15305-doc-view?style=flat-square)](https://plugins.jetbrains.com/plugin/15305-doc-view) [![Doc View 版本](https://img.shields.io/jetbrains/plugin/v/15305-doc-view?style=flat-square)](https://plugins.jetbrains.com/plugin/15305-doc-view) [![Doc View GitHub Stars](https://img.shields.io/github/stars/liuzhihang/doc-view?style=flat-square&color=805ad5)](https://github.com/liuzhihang/doc-view)
+### [Doc View](https://github.com/liuzhihang/doc-view)
 
-- **[Toolkit](https://github.com/liuzhihang/toolkit)**：IDEA 提效工具箱，包含 JSON 转换、MyBatis 跳转等常用功能。 [![Toolkit 下载量](https://img.shields.io/jetbrains/plugin/d/12384-toolkit?style=flat-square)](https://plugins.jetbrains.com/plugin/12384-toolkit)
-- **[karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)**：给编码 Agent 的简明协作准则，提供 `AGENTS.md` 和 Skill。
+在 IntelliJ IDEA 里从 Java 源码生成接口文档，支持 Markdown 导出。
+
+[![Doc View 下载量](https://img.shields.io/jetbrains/plugin/d/15305-doc-view?style=flat&labelColor=26364E&color=46799D&label=Downloads)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![Doc View 版本](https://img.shields.io/jetbrains/plugin/v/15305-doc-view?style=flat&labelColor=26364E&color=46799D&label=Version)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![Doc View GitHub Stars](https://img.shields.io/github/stars/liuzhihang/doc-view?style=flat&labelColor=26364E&color=46799D&label=Stars)](https://github.com/liuzhihang/doc-view)
+
+| 项目 | 用途 |
+| :--- | :--- |
+| **[Toolkit](https://github.com/liuzhihang/toolkit)** | IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。 |
+| **[karpathy-agents-md](https://github.com/liuzhihang/karpathy-agents-md)** | 编码 Agent 协作准则，提供 `AGENTS.md` 和 Skill。 |
 
 ## ✍️ 博客
 
-**精选**：[五张图看懂 Loop Engineering](https://liuzhihang.com/posts/loop-engineering-visual-guide/)
+[<img src="./assets/sdd-feature.png" width="100%" alt="SDD 研发框架：我更推荐 OpenSpec。探索需求 → 起草提案 → 按规约实现 → 归档沉淀。人审提案，人验结果。">](https://liuzhihang.com/posts/sdd-framework-why-openspec/)
+
+**相关阅读**：[五张图看懂 Loop Engineering](https://liuzhihang.com/posts/loop-engineering-visual-guide/)
 
 **最新发布**
 
 <!-- BLOG-POST-LIST:START -->
 - [出了事故，就该禁止 AI 写代码吗？](https://liuzhihang.com/posts/ai-coding-incident-checks/)
-- [SDD 研发框架：我更推荐 OpenSpec](https://liuzhihang.com/posts/sdd-framework-why-openspec/)
 - [GPT-6.2 发布：AGENTS.md 该留什么？](https://liuzhihang.com/posts/gpt-6-2-agents-md/)
 - [GPT-6.2 使用速查](https://liuzhihang.com/posts/gpt-6-2-codex-definition-of-done/)
 - [GPT-6.2 API 迁移：别只换模型名](https://liuzhihang.com/posts/gpt-6-2-api-migration/)
@@ -49,13 +56,13 @@ Java 后端开发者、IntelliJ IDEA 插件作者。写 AI 研发实践，做自
 <img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="208" alt="IntelliJ IDEA、Git、GitHub、Docker">
 
 **AI 研发**  
-[![Codex](https://img.shields.io/badge/Codex-202537?style=flat-square)](https://openai.com/codex/) [![Antigravity](https://img.shields.io/badge/Antigravity-684AAD?style=flat-square)](https://antigravity.google/) [![OpenSpec](https://img.shields.io/badge/OpenSpec-315B82?style=flat-square)](https://github.com/Fission-AI/OpenSpec)
+[![Codex](https://img.shields.io/badge/Codex-46799D?style=flat-square)](https://openai.com/codex/) [![Antigravity](https://img.shields.io/badge/Antigravity-46799D?style=flat-square)](https://antigravity.google/) [![OpenSpec](https://img.shields.io/badge/OpenSpec-46799D?style=flat-square)](https://github.com/Fission-AI/OpenSpec)
 
 ## 📊 开发者数据室
 
 <p align="center">
-  <a href="https://github.com/liuzhihang"><img width="48%" src="https://streak-stats.demolab.com/?user=liuzhihang&amp;theme=tokyonight&amp;hide_border=true" alt="GitHub 总贡献、当前连续贡献和最长连续贡献"></a>
-  <a href="https://leetcode.cn/u/liuzhihang/"><img width="48%" src="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;theme=nord&amp;border=0&amp;radius=10" alt="LeetCode 中国站解题统计"></a>
+  <a href="https://github.com/liuzhihang"><img width="48%" src="https://streak-stats.demolab.com/?user=liuzhihang&amp;background=161F31&amp;border=384860&amp;stroke=384860&amp;ring=81C8E8&amp;fire=F3BB83&amp;currStreakNum=F3F6FC&amp;currStreakLabel=81C8E8&amp;sideNums=F3F6FC&amp;sideLabels=ADC0D5&amp;dates=ADC0D5&amp;border_radius=11" alt="GitHub 总贡献、当前连续贡献和最长连续贡献"></a>
+  <a href="https://leetcode.cn/u/liuzhihang/"><img width="48%" src="https://leetcard.jacoblin.cool/liuzhihang?site=cn&amp;colors=161F31,384860,ADC0D5,F3F6FC,81C8E8,6AA5CA,F3BB83,8B9DC1&amp;border=0&amp;radius=11" alt="LeetCode 中国站解题统计"></a>
 </p>
 
 <details>
@@ -76,7 +83,7 @@ Sun  126  ████████████████  26.7%
 </details>
 
 <details>
-<summary>🏙️ 展开开发者数据室 · 3D 贡献城市 / 提交时段</summary>
+<summary>🏙️ 展开 3D 贡献城市 / 提交时段</summary>
 <br>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-skyline-dark.svg">
