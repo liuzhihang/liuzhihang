@@ -15,11 +15,13 @@
 
 ## 👋 关于我
 
-Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的工具，也记录 AI Engineering 实践：SDD、编码 Agent 与交付验证。
+Java 后端开发者、IntelliJ IDEA 插件作者。
 
-- 🧩 我做了 **[Doc View](https://github.com/liuzhihang/doc-view)**，让 Java 开发者不用启动应用，就能在 IntelliJ IDEA 里从源码生成接口文档。插件已累计下载 2 万余次。
-- 🧪 在用 **OpenSpec + 编码 Agent** 跑需求、开发、自测和验收。
+- 🧩 做了 [Doc View](https://github.com/liuzhihang/doc-view)，不用启动应用，就能从 Java 源码生成接口文档。累计下载 2 万余次。
+- 🧪 在真实项目里实践 SDD 和多 Agent 协作，从需求一路跑到验收。
+- ✍️ 在博客和公众号写完整实践，在 [X](https://x.com/liuzhihangs) 分享工具试用、开源进展和踩坑笔记。
 - 🏃 理论跑步爱好者，实践派插件作者。
+- 🎮 金铲铲猪脑过载选手，LOLM 手残党，王者混分大王。
 
 ## 🧩 开源作品
 
