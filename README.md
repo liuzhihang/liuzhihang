@@ -16,7 +16,7 @@
 <p>
   <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/Website-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-1F6FEB?style=flat&amp;labelColor=24292F&amp;logo=rss&amp;logoColor=E6EDF3" alt="个人博客"></a>
   <a href="https://x.com/liuzhihangs"><img src="https://img.shields.io/badge/X-@liuzhihangs-373E47?style=flat&amp;labelColor=24292F&amp;logo=x&amp;logoColor=E6EDF3" alt="X：@liuzhihangs"></a>
-  <a href="#wechat-qr"><img src="https://img.shields.io/badge/WeChat-%E5%85%AC%E4%BC%97%E5%8F%B7-373E47?style=flat&amp;labelColor=24292F&amp;logo=wechat&amp;logoColor=E6EDF3" alt="微信公众号：程序员小航"></a>
+  <a href="#user-content-wechat-qr"><img src="https://img.shields.io/badge/WeChat-%E5%85%AC%E4%BC%97%E5%8F%B7-373E47?style=flat&amp;labelColor=24292F&amp;logo=wechat&amp;logoColor=E6EDF3" alt="微信公众号：程序员小航"></a>
 </p>
 
 </div>
