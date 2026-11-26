@@ -1,17 +1,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/workbench-native.webp">
-  <img src="./assets/workbench-native-motion.webp" width="100%" alt="Liu Zhihang：Java 后端开发者和插件作者。深夜工作台，月光、双屏和一只漂浮的小机器人。">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-workbench-light.svg">
+  <img src="./assets/hero-workbench-dark.svg" width="100%" alt="Liu Zhihang 的昼夜工作台：Java 后端、IDEA 插件、AI Engineering；OpenSpec 流程：Explore、Propose、Apply、Archive。">
 </picture>
-
-<p>
-  <picture>
-    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/typing-one-still.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=3500&amp;pause=1600&amp;color=0969DA&amp;center=true&amp;vCenter=true&amp;width=650&amp;height=42&amp;lines=%E5%AD%A6%EF%BC%8C%E8%80%8C%E7%9F%A5%E4%B8%8D%E8%B6%B3%EF%BC%9B%E6%95%99%EF%BC%8C%E7%84%B6%E5%90%8E%E7%9F%A5%E5%9B%B0%EF%BC%81%3B%F0%9F%9B%A0%EF%B8%8F+%E6%AD%A3%E5%9C%A8%E6%89%93%E7%A3%A8+Doc+View">
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&amp;weight=600&amp;size=20&amp;duration=3500&amp;pause=1600&amp;color=58A6FF&amp;center=true&amp;vCenter=true&amp;width=650&amp;height=42&amp;lines=%E5%AD%A6%EF%BC%8C%E8%80%8C%E7%9F%A5%E4%B8%8D%E8%B6%B3%EF%BC%9B%E6%95%99%EF%BC%8C%E7%84%B6%E5%90%8E%E7%9F%A5%E5%9B%B0%EF%BC%81%3B%F0%9F%9B%A0%EF%B8%8F+%E6%AD%A3%E5%9C%A8%E6%89%93%E7%A3%A8+Doc+View" width="650" alt="学，而知不足；教，然后知困！正在打磨 Doc View。">
-  </picture>
-</p>
 
 <p>
   <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/Website-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-1F6FEB?style=flat&amp;labelColor=24292F&amp;logo=rss&amp;logoColor=E6EDF3" alt="个人博客"></a>
