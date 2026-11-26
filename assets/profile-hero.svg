@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="142" viewBox="0 0 880 142" role="img" aria-label="Liu Zhihang developer workspace">
+<defs><linearGradient id="bg"><stop stop-color="#0c172b"/><stop offset=".62" stop-color="#1c2a57"/><stop offset="1" stop-color="#123c48"/></linearGradient><linearGradient id="trace"><stop stop-color="#9d8bf3"/><stop offset=".52" stop-color="#60b9fb"/><stop offset="1" stop-color="#67e3b1"/></linearGradient><pattern id="grid" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M18 0H0V18" fill="none" stroke="#daf6ff" stroke-opacity=".07"/></pattern><clipPath id="frame"><rect width="880" height="142" rx="15"/></clipPath></defs>
+<style>.spark{animation:drift 4s ease-in-out infinite alternate}@keyframes drift{to{transform:translateX(108px);opacity:.45}}@media(prefers-reduced-motion:reduce){.spark{animation:none}}</style>
+<g clip-path="url(#frame)"><rect width="880" height="142" fill="url(#bg)"/><rect width="880" height="142" fill="url(#grid)"/>
+<path d="M558 142L678 22H880M601 142L701 42H880M643 142L728 61H880" fill="none" stroke="url(#trace)" stroke-width="1.6" opacity=".53"/>
+<path d="M690 107H820" stroke="#6798ad" stroke-width="1" opacity=".6"/><circle class="spark" cx="692" cy="107" r="4" fill="#8ef0c7"/>
+<path d="M0 137H495L522 112H688" fill="none" stroke="url(#trace)" stroke-width="2" opacity=".9"/>
+<text x="35" y="35" font-family="monospace" font-size="12" font-weight="700" letter-spacing="2.5" fill="#9cd6fc">~/LIUZHIHANG</text>
+<text x="34" y="80" font-family="system-ui,sans-serif" font-size="32" font-weight="750" fill="#f2f6ff">Developer Workspace</text>
+<text x="36" y="106" font-family="monospace" font-size="12" fill="#b1cce5">BACKEND  /  IDEA PLUGINS  /  AI ENGINEERING</text>
+</g></svg>
