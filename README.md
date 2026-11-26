@@ -55,21 +55,13 @@ Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的�
 
 ## 🧰 常用工具
 
-**后端与数据**  
-<a href="https://github.com/tandpfun/skill-icons">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=dark" width="156" alt="Java、Spring、MySQL">
-</picture>
-</a>
+**后端与数据**
 
-**开发与交付**  
-<a href="https://github.com/tandpfun/skill-icons">
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cgit%2Cgithub%2Cdocker&amp;theme=light">
-  <img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="208" alt="IntelliJ IDEA、Git、GitHub、Docker">
-</picture>
-</a>
+<p><a href="https://github.com/tandpfun/skill-icons"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql&amp;theme=light"><img src="https://skillicons.dev/icons?i=java,spring,mysql&amp;theme=dark" width="156" alt="Java、Spring、MySQL"></picture></a></p>
+
+**开发与交付**
+
+<p><a href="https://github.com/tandpfun/skill-icons"><picture><source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=idea%2Cgit%2Cgithub%2Cdocker&amp;theme=light"><img src="https://skillicons.dev/icons?i=idea,git,github,docker&amp;theme=dark" width="208" alt="IntelliJ IDEA、Git、GitHub、Docker"></picture></a></p>
 
 **AI 研发**  
 [![Codex](https://img.shields.io/badge/Codex-725480?style=flat)](https://openai.com/codex/) [![Antigravity](https://img.shields.io/badge/Antigravity-725480?style=flat)](https://antigravity.google/) [![OpenSpec](https://img.shields.io/badge/OpenSpec-725480?style=flat)](https://github.com/Fission-AI/OpenSpec)
