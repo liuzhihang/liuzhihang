@@ -15,7 +15,7 @@
     .stage-text {fill:#59636E;animation:label 8s ease-in-out infinite;animation-delay:var(--phase)}
     .flow {opacity:0;stroke-dasharray:3 3;animation:signal 8s linear infinite;animation-delay:var(--phase)}
     .status {animation:breathe 2.5s ease-in-out infinite}
-    .steam {animation:steam 7s ease-in-out infinite;transform-origin:819px 257px}
+    .steam {animation:steam 7s ease-in-out infinite}
     .screen {animation:screen 8s ease-in-out infinite}
     .robot-fragment {animation:hoverbot 6s ease-in-out infinite}
     .term {opacity:0;animation:rotate-line 18s linear infinite;animation-delay:var(--turn)}
@@ -27,7 +27,7 @@
     @keyframes signal {0%{opacity:0;stroke-dashoffset:4} 8%,22%{opacity:.9} 28%,100%{opacity:0;stroke-dashoffset:-12}}
     @keyframes breathe {50%{opacity:.50}}
     @keyframes blink {0%,55%{opacity:1} 56%,100%{opacity:0}}
-    @keyframes steam {0%,100%{opacity:.08;transform:translateY(2px)} 52%{opacity:.40;transform:translateY(-7px)}}
+    @keyframes steam {0%,100%{opacity:.08} 52%{opacity:.40}}
     @keyframes screen {0%,100%{opacity:.10} 50%{opacity:.25}}
     @keyframes hoverbot {50%{transform:translateY(-3px)}}
     @keyframes rotate-line {0%,31%{opacity:1} 33%,100%{opacity:0}}
@@ -45,7 +45,7 @@
   <use href="#desk" mask="url(#blend)"/>
   <g mask="url(#robot-mask)"><use class="robot-fragment" href="#desk"/></g>
   <ellipse class="screen" cx="787" cy="197" rx="83" ry="52" fill="url(#screen-light)"/>
-  <path class="steam" d="M859 269c-13-6 10-11 1-20s-4-12 0-18" stroke="#9A6700" fill="none" stroke-width="1.5" stroke-linecap="round"/>
+  <path class="steam" d="M894 267c-5-6 7-11 1-18s-5-11 1-17" stroke="#9A6700" fill="none" stroke-width="1.5" stroke-linecap="round"/>
 </g>
 <rect x=".6" y=".6" width="1078.8" height="354.8" rx="12" fill="none" stroke="#D0D7DE" stroke-width="1.2"/>
 <circle class="status" cx="58" cy="50" r="3.6" fill="#116329"/>
@@ -58,6 +58,6 @@
 <g class="stage-first" style="--phase:0s"><rect class="stage-bg" x="54" y="221" width="92" height="31" rx="7"/><text class="mono stage-text" x="100" y="241" text-anchor="middle" font-size="13" font-weight="600">Explore</text><path d="M150 236.5h12m-3-3l3 3-3 3" fill="none" stroke="#D0D7DE" stroke-linecap="round"/><path class="flow" d="M150 236.5h12" fill="none" stroke="#0969DA" stroke-linecap="round"/></g><g class="" style="--phase:-6s"><rect class="stage-bg" x="166" y="221" width="92" height="31" rx="7"/><text class="mono stage-text" x="212" y="241" text-anchor="middle" font-size="13" font-weight="600">Propose</text><path d="M262 236.5h12m-3-3l3 3-3 3" fill="none" stroke="#D0D7DE" stroke-linecap="round"/><path class="flow" d="M262 236.5h12" fill="none" stroke="#0969DA" stroke-linecap="round"/></g><g class="" style="--phase:-4s"><rect class="stage-bg" x="278" y="221" width="92" height="31" rx="7"/><text class="mono stage-text" x="324" y="241" text-anchor="middle" font-size="13" font-weight="600">Apply</text><path d="M374 236.5h12m-3-3l3 3-3 3" fill="none" stroke="#D0D7DE" stroke-linecap="round"/><path class="flow" d="M374 236.5h12" fill="none" stroke="#0969DA" stroke-linecap="round"/></g><g class="" style="--phase:-2s"><rect class="stage-bg" x="390" y="221" width="92" height="31" rx="7"/><text class="mono stage-text" x="436" y="241" text-anchor="middle" font-size="13" font-weight="600">Archive</text></g>
 <path d="M54 273H481" stroke="#D0D7DE"/>
 <text class="mono" x="53" y="302" font-size="13.5" fill="#0969DA">&gt;</text>
-<clipPath id="clip0"><rect class="term-reveal" style="--turn:0s" x="69" y="278" width="321" height="33"/></clipPath><g class="term" style="--turn:0s" clip-path="url(#clip0)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">spec first, vibe code with codex &amp; agy</text><rect class="caret" x="379" y="288" width="7" height="15" rx="1" fill="#9A6700"/></g><clipPath id="clip1"><rect class="term-reveal" style="--turn:-12s" x="69" y="278" width="371" height="33"/></clipPath><g class="term" style="--turn:-12s" clip-path="url(#clip1)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">shipping doc-view · toolkit · liuzhihang.com</text><rect class="caret" x="429" y="288" width="7" height="15" rx="1" fill="#9A6700"/></g><clipPath id="clip2"><rect class="term-reveal" style="--turn:-6s" x="69" y="278" width="272" height="33"/></clipPath><g class="term" style="--turn:-6s" clip-path="url(#clip2)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">学，而知不足；教，然后知困！</text><rect class="caret" x="330" y="288" width="7" height="15" rx="1" fill="#9A6700"/></g>
+<clipPath id="clip0"><rect class="term-reveal" style="--turn:0s" x="69" y="278" width="410" height="33"/></clipPath><g class="term" style="--turn:0s" clip-path="url(#clip0)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">spec first, vibe code with codex &amp; agy<tspan class="caret" dx="1.5" fill="#9A6700" aria-hidden="true">▋</tspan></text></g><clipPath id="clip1"><rect class="term-reveal" style="--turn:-12s" x="69" y="278" width="410" height="33"/></clipPath><g class="term" style="--turn:-12s" clip-path="url(#clip1)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">shipping doc-view · toolkit · liuzhihang.com<tspan class="caret" dx="1.5" fill="#9A6700" aria-hidden="true">▋</tspan></text></g><clipPath id="clip2"><rect class="term-reveal" style="--turn:-6s" x="69" y="278" width="410" height="33"/></clipPath><g class="term" style="--turn:-6s" clip-path="url(#clip2)"><text class="mono" x="70" y="302" font-size="13.5" fill="#59636E">学，而知不足；教，然后知困！<tspan class="caret" dx="1.5" fill="#9A6700" aria-hidden="true">▋</tspan></text></g>
 <text class="mono term-still" x="70" y="302" font-size="13.5" fill="#59636E">学，而知不足；教，然后知困！</text>
 </svg>

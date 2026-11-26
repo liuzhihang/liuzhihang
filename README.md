@@ -8,7 +8,7 @@
 <p>
   <a href="https://liuzhihang.com/"><img src="https://img.shields.io/badge/Website-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-1F6FEB?style=flat&amp;labelColor=24292F&amp;logo=rss&amp;logoColor=E6EDF3" alt="个人博客"></a>
   <a href="https://x.com/liuzhihangs"><img src="https://img.shields.io/badge/X-@liuzhihangs-373E47?style=flat&amp;labelColor=24292F&amp;logo=x&amp;logoColor=E6EDF3" alt="X：@liuzhihangs"></a>
-  <a href="#user-content-wechat-qr"><img src="https://img.shields.io/badge/WeChat-%E5%85%AC%E4%BC%97%E5%8F%B7-373E47?style=flat&amp;labelColor=24292F&amp;logo=wechat&amp;logoColor=E6EDF3" alt="微信公众号：程序员小航"></a>
+  <a href="https://liuzhihang.com/oss/pic/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-%E5%85%AC%E4%BC%97%E5%8F%B7-373E47?style=flat&amp;labelColor=24292F&amp;logo=wechat&amp;logoColor=E6EDF3" alt="微信公众号「程序员小航」二维码"></a>
 </p>
 
 </div>
@@ -17,7 +17,7 @@
 
 Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的工具，也记录 AI Engineering 实践：SDD、编码 Agent 与交付验证。
 
-- 🧩 在维护 **[Doc View](https://github.com/liuzhihang/doc-view)**，让查接口、写文档少一些重复操作。
+- 🧩 我做了 **[Doc View](https://github.com/liuzhihang/doc-view)**，让 Java 开发者不用启动应用，就能在 IntelliJ IDEA 里从源码生成接口文档。插件已累计下载 2 万余次。
 - 🧪 在用 **OpenSpec + 编码 Agent** 跑需求、开发、自测和验收。
 - 🏃 理论跑步爱好者，实践派插件作者。
 
@@ -25,7 +25,8 @@ Java 后端开发者、IntelliJ IDEA 插件作者。我在做自己用得上的�
 
 ### [Doc View](https://github.com/liuzhihang/doc-view)
 
-在 IntelliJ IDEA 里从 Java 源码生成接口文档，支持 Markdown 导出。
+支持 Spring、Feign、Dubbo，可预览接口文档并导出 Markdown。  
+[安装插件](https://plugins.jetbrains.com/plugin/15305-doc-view) · [查看源码](https://github.com/liuzhihang/doc-view)
 
 [![JetBrains 下载量](https://img.shields.io/jetbrains/plugin/d/15305-doc-view?style=flat&labelColor=24292F&color=1F6FEB&label=Downloads)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![JetBrains 版本](https://img.shields.io/jetbrains/plugin/v/15305-doc-view?style=flat&labelColor=24292F&color=373E47&label=Version)](https://plugins.jetbrains.com/plugin/15305-doc-view) · [![GitHub Stars](https://img.shields.io/github/stars/liuzhihang/doc-view?style=flat&labelColor=24292F&color=373E47&label=Stars)](https://github.com/liuzhihang/doc-view)
 
@@ -49,6 +50,8 @@ IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。
     <img src="./assets/sdd-feature-native-dark.png" width="100%" alt="SDD 研发框架：我更推荐 OpenSpec。探索需求 → 起草提案 → 按规约实现 → 归档沉淀。人审提案，人验结果。">
   </picture>
 </a>
+
+项目实例 · [Doc View 如何处理生成 HTTP 请求时丢失 Header 的问题](https://github.com/liuzhihang/doc-view/blob/master/openspec/changes/archive/2026-11-20-http-client-generation-and-ui/proposal.md)
 
 **最新发布**
 
@@ -97,8 +100,6 @@ IntelliJ IDEA 工具箱：JSON 转换、MyBatis 跳转等。
 </picture>
 
 <sub>地图来自我的 <a href="https://github.com/liuzhihang">GitHub 公开贡献记录</a>，由 <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Contribution Graph</a> 生成；<a href="./.github/workflows/refresh-profile.yml">默认分支自动刷新</a>，预览分支展示最近一次生成的快照。</sub>
-
-<a id="wechat-qr"></a>
 
 <details>
 <summary>💬 微信公众号「程序员小航」二维码</summary>
