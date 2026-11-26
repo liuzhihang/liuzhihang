@@ -41,7 +41,7 @@ def articles(data):
         title = re.sub(r'([\\\[\]<>*_])', r'\\\1', title)
         if title and (link not in posts or published > posts[link][0]):
             posts[link] = (published, title)
-    if len(posts) < 5:
+    if len(posts) < 3:
         raise ValueError('Incomplete blog feed; refusing to drop existing items')
     return '\n'.join(f'- `{pub.astimezone(timezone(timedelta(hours=8))):%Y-%m-%d}` · [{title}]({url})'
                      for url, (pub, title) in sorted(posts.items(), key=lambda x: x[1][0], reverse=True)[:5])
@@ -63,10 +63,13 @@ class Calendar(HTMLParser):
 def skyline(d, theme):
     days = sorted(d)
     bg, fg, muted, grid, c = (
-        ('#F6F8FA', '#24292F', '#4D5869', '#E6EBF0', ['#E6EBF0','#C8E2F5','#9CCCEB','#61AFEF','#257AA9'])
+        ('#F6F8FA', '#1F2328', '#59636E', '#E6EBF0', ['#E6EBF0','#C8E2F5','#9CCCEB','#61AFEF','#257AA9'])
         if theme == 'light' else
-        ('#282C34', '#ABB2BF', '#ABB2BF', '#343A46', ['#343A46','#355C78','#4784AD','#61AFEF','#98C379'])
+        ('#161B22', '#E6EDF3', '#8B949E', '#21262D', ['#21262D','#26415C','#315A7F','#427CAC','#58A6FF'])
     )
+    def shade(color, fraction):
+        values = (int(color[i:i+2], 16) for i in (1,3,5))
+        return '#' + ''.join(f'{round(value*fraction):02x}' for value in values)
     def xy(i, dx=0, dy=0, h=0):
         x,y = i//7+dx, i%7+dy
         return f'{80+x*14-y*7.8:.1f},{107+x*1.25+y*5.5-h:.1f}'
@@ -82,8 +85,8 @@ def skyline(d, theme):
         def poly(points, fill):
             el.append(f'<polygon points="{" ".join(points)}" fill="{fill}"/>')
         if h:
-            poly([xy(i,*f,h),xy(i,*e,h),xy(i,*e),xy(i,*f)],c[lev])
-            poly([xy(i,*e,h),xy(i,*b,h),xy(i,*b),xy(i,*e)],muted)
+            poly([xy(i,*f,h),xy(i,*e,h),xy(i,*e),xy(i,*f)],shade(c[lev], .92 if theme == "light" else .84))
+            poly([xy(i,*e,h),xy(i,*b,h),xy(i,*b),xy(i,*e)],shade(c[lev], .84 if theme == "light" else .71))
         poly([xy(i,*a,h),xy(i,*b,h),xy(i,*e,h),xy(i,*f,h)],c[lev] if h else grid)
     el.append('</svg>')
     return ''.join(el) + '\n'
@@ -115,13 +118,17 @@ def arcade_fallbacks(output):
         # Reapply the profile palette after each upstream refresh, including the
         # color strings inside animated contribution tiles.
         palettes = {
-            'light': {'#ffffff':'#F6F8FA', '#ebedf0':'#E6EBF0', '#57606a':'#4D5869',
+            'light': {'#ffffff':'#F6F8FA', '#ebedf0':'#E6EBF0', '#57606a':'#59636E', '#4d5869':'#59636E',
                       '#9be9a8':'#C8E2F5', '#40c463':'#9CCCEB', '#30a14e':'#61AFEF', '#216e39':'#257AA9'},
-            'dark': {'#0d1117':'#282C34', '#161b22':'#343A46', '#8b949e':'#ABB2BF',
-                     '#0e4429':'#355C78', '#006d32':'#4784AD', '#26a641':'#61AFEF', '#39d353':'#98C379'},
+            'dark': {'#0d1117':'#161B22', '#282c34':'#161B22', '#161b22':'#21262D', '#343a46':'#21262D', '#abb2bf':'#8B949E',
+                     '#0e4429':'#26415C', '#355c78':'#26415C', '#006d32':'#315A7F', '#4784ad':'#315A7F', '#26a641':'#427CAC', '#61afef':'#427CAC', '#39d353':'#58A6FF', '#98c379':'#58A6FF'},
         }
         palette = palettes[theme]
-        source = re.sub(r'#[0-9a-fA-F]{6}\b', lambda color: palette.get(color[0].lower(), color[0]), source)
+        source = re.sub(r'#[0-9a-fA-F]{6}\b', lambda color: color[0] if color[0] == "#161B22" else palette.get(color[0].lower(), color[0]), source)
+        # Strip wall-clock metadata; retain the dated map, animation, and credit.
+        source = re.sub(r'<desc>Generated with pacman-contribution-graph on [^<]+</desc>',
+                        '<desc>Generated with pacman-contribution-graph</desc>', source)
+        source = re.sub(r'<generatedOn>[^<]+</generatedOn>', '', source)
         ET.fromstring(source)
         (output/'assets'/f'profile-arcade-{theme}.svg').write_text(source)
         if not re.search(r'<animate(?:Transform|Motion)?\b', source):
