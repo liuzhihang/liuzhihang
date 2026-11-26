@@ -17,9 +17,9 @@
 
 Java 后端开发者、IntelliJ IDEA 插件作者、开源贡献者。
 
-- 🧩 我做了 [Doc View](https://github.com/liuzhihang/doc-view)。不用启动应用，就能在 IntelliJ IDEA 里从 Java 源码生成接口文档。累计下载 2 万余次。
-- 🧪 用 OpenSpec 做规格驱动开发（SDD），在真实项目里探索怎么用多 Agent 协作，把需求做到可验收。
-- ✍️ 喜欢把做过的事和踩过的坑写下来。长文发在博客和公众号，在 [X](https://x.com/liuzhihangs) 分享工具试用和开源进展。
+- 🧩 [Doc-View](https://github.com/liuzhihang/doc-view) 开发者，在 IntelliJ IDEA 里快速生成接口文档。
+- 🧪 多 Agent 协作探索者，实践从需求到交付的研发自动化。
+- ✍️ 踩坑记录分享员，在博客、公众号和 [X](https://x.com/liuzhihangs) 分享实战笔记。
 - 🏃 理论跑步爱好者，实践派插件作者。
 - 🎮 金铲铲猪脑过载选手，LOLM 手残党，王者混分大王。
 
