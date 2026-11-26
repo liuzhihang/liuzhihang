@@ -111,10 +111,6 @@ Java 后端开发者、IntelliJ IDEA 插件作者、开源贡献者。
   <img src="./assets/profile-arcade-dark.svg" width="100%" alt="像素吃豆人在 GitHub 公开贡献日历上与螃蟹、鲸鱼、Mino Dot 和小飞船追逐">
 </picture>
 
-同场追逐：🦀 Claude 螃蟹 · 🐋 DeepSeek 鲸鱼 · Mino Dot · 🚀 AGY 飞船
-
-<sub>地图来自我的 <a href="https://github.com/liuzhihang">GitHub 公开贡献记录</a>，由 <a href="https://github.com/abozanona/pacman-contribution-graph">Pac-Man Contribution Graph</a> 生成；<a href="./.github/workflows/refresh-profile.yml">默认分支自动刷新</a>，预览分支展示最近一次生成的快照。</sub>
-
 <details>
 <summary>💬 点击展开微信公众号「程序员小航」二维码</summary>
 
