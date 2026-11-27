@@ -1,8 +1,8 @@
 <svg width="1166" height="184" xmlns="http://www.w3.org/2000/svg"><desc>Generated with pacman-contribution-graph</desc><metadata>
 		<info>
-			<frames>391</frames>
+			<frames>392</frames>
 			<frameRate>5</frameRate>
-			<durationMs>78200</durationMs>
+			<durationMs>78400</durationMs>
 			
 		</info>
 	</metadata><rect width="100%" height="100%" fill="#F6F8FA"/><defs>
@@ -65,13 +65,13 @@
 		
 		
 	</path><g id="ghost0" transform="translate(572,37)">
-			<use href="#ghost-blinky-up" width="20" height="20" visibility="hidden">
+			<use href="#ghost-blinky-up" width="20" height="20" visibility="visible">
 				
 			</use><use href="#ghost-blinky-down" width="20" height="20" visibility="hidden">
 				
 			</use><use href="#ghost-blinky-left" width="20" height="20" visibility="hidden">
 				
-			</use><use href="#ghost-blinky-right" width="20" height="20" visibility="visible">
+			</use><use href="#ghost-blinky-right" width="20" height="20" visibility="hidden">
 				
 			</use></g><g id="ghost1" transform="translate(550,81)">
 			<use href="#ghost-inky-up" width="20" height="20" visibility="hidden">

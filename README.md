@@ -67,11 +67,11 @@ Java 后端开发者、IntelliJ IDEA 插件作者、开源贡献者。
 **最新发布**
 
 <!-- BLOG-POST-LIST:START -->
+- `2026-11-27` · [OpenSpec 2.2 新增统一入口](https://liuzhihang.com/posts/openspec-v2-2-0/)
+- `2026-11-26` · [从 AI 写代码到 AI 交付：Anthropic 的研发手册](https://liuzhihang.com/posts/ai-native-sdlc-delivery/)
 - `2026-11-21` · [出了事故，就该禁止 AI 写代码吗？](https://liuzhihang.com/posts/ai-coding-incident-checks/)
 - `2026-11-19` · [GPT-6.2 发布：AGENTS.md 该留什么？](https://liuzhihang.com/posts/gpt-6-2-agents-md/)
 - `2026-11-19` · [GPT-6.2 API 迁移：别只换模型名](https://liuzhihang.com/posts/gpt-6-2-api-migration/)
-- `2026-11-19` · [GPT-6.2 使用速查](https://liuzhihang.com/posts/gpt-6-2-codex-definition-of-done/)
-- `2026-11-03` · [Your Harness. You Define It.](https://liuzhihang.com/posts/deepseek-creator-two-plugins/)
 <!-- BLOG-POST-LIST:END -->
 
 ## 🧰 常用工具
