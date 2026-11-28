@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="227" viewBox="0 0 460 227" role="img" aria-labelledby="title desc">
-<title id="title">Toolkit · IntelliJ IDEA Plugin</title><desc id="desc">Convert JavaBean and JSON, jump between MyBatis Mapper and XML, and use helpers for encoding and formatting.</desc>
+<title id="title">Toolkit · IntelliJ IDEA Plugin</title><desc id="desc">Convert between JavaBean and JSON, format XML, and encode or decode Base64 and URLs.</desc>
 <!-- Plugin logo from liuzhihang/toolkit, MIT; see THIRD_PARTY_NOTICES.md. -->
 <style>
 text {font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;fill:#1F2328}
@@ -24,11 +24,11 @@ text {font-family:system-ui,-apple-system,"Segoe UI","PingFang SC","Microsoft Ya
 <text x="34" y="186" font-size="13" font-weight="650">JSON</text><rect x="164" y="77" width="132" height="125" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
 <rect x="178" y="91" width="32" height="32" rx="8" fill="#DDF4FF"/>
 <path d="m5 9 4-4h8l2 2v12H5Zm4 3h6m-6 4h6" transform="translate(182 95)" stroke="#0969DA" fill="none" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="178" y="145" class="meta">代码导航</text>
-<text x="178" y="166" font-size="13" font-weight="650">MyBatis Mapper</text>
-<text x="178" y="186" font-size="13" font-weight="650">XML 跳转</text><rect x="308" y="77" width="132" height="125" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
+<text x="178" y="145" class="meta">格式化</text>
+<text x="178" y="166" font-size="13" font-weight="650">XML</text>
+<text x="178" y="186" font-size="13" font-weight="650">一键格式化</text><rect x="308" y="77" width="132" height="125" rx="12" fill="#FFFFFF" stroke="#D0D7DE"/>
 <rect x="322" y="91" width="32" height="32" rx="8" fill="#DDF4FF"/>
 <path d="M4 6h16M4 10h10M4 14h16M4 18h10" transform="translate(326 95)" stroke="#0969DA" fill="none" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="322" y="145" class="meta">文本处理</text>
-<text x="322" y="166" font-size="13" font-weight="650">编解码</text>
-<text x="322" y="186" font-size="13" font-weight="650">格式化</text></svg>
+<text x="322" y="145" class="meta">编解码</text>
+<text x="322" y="166" font-size="13" font-weight="650">Base64</text>
+<text x="322" y="186" font-size="13" font-weight="650">URL</text></svg>
